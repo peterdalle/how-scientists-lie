@@ -1,0 +1,55 @@
+# Questionable Research Practices (QRPs) {#qrp}
+
+Questionable research practices are the steroids of science.
+
+## What are QRPs?
+
+The term *questionable research practices*, or QRPs for short, originated from @john_measuring_2012. However, they did not give a definition apart from giving examples and analogies:
+
+> Questionable research practices (QRPs), such as excluding data points on the basis of post hoc criteria, can spuriously increase the likelihood of finding evidence in support of a hypothesis. [...] QRPs are the steroids of scientific competition, artificially enhancing performance and producing a kind of arms race in which researchers who strictly play by the rules are at a competitive disadvantage. QRPs, by nature of the very fact that they are often questionable as opposed to blatantly improper, also offer considerable latitude for rationalization and self-deception. [@john_measuring_2012, 524]
+
+## Scientific misconduct {#scientific-misconduct}
+
+What is the difference between questionable reserarch practices and scientific misconduct?
+
+The main difference is ...
+
+...
+
+## Prevalence of QRPs in different fields
+
+How common are questionable research practices? We can take a look across different fields.
+
+### Natural Sciences
+
+...
+
+### Social Sciences
+
+...
+
+### Humanities
+
+...
+                                                     
+
+## Consequences
+
+### False findings
+
+The (false positive rate) has been estimated a number of times.
+
+- Schimmack
+- Ioannidis
+
+### Waste of time and money
+
+"A lot of money go down the drain in pseudotests theories" Meehl
+
+### Lower public trust
+
+...
+
+## Summary
+
+...

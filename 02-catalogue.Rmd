@@ -1,0 +1,67 @@
+# Catalogue of Questionable Research Practices {#catalogue}
+
+...
+
+## Selective reporting
+
+One of the major reasons is selective reporting. This can be done in various ways, which we will cover in this.
+
+- *Cherry-picking*. Picking one or more observations.
+
+- *Selective omission*. Omitting one or more observations.
+
+## Hypothesizing after the results are known (HARKing)
+
+Adapting the hypothesis after the results.
+
+Countermeasures: [preregistration](#preregistration), [registered report](#registered-reports)
+
+## Removing hypothesis that "didn't work"
+
+Countermeasures: [preprints](#preprints), [preregistration](#preregistration), [registered report](#registered-reports)
+
+## Publication bias
+
+Countermeasures: [preprints](#preprints)
+
+## P-hacking
+
+Also known as: *data snooping*
+
+@stefan_big_2022 has compiled a list of 12 different strategies.
+
+### Selective reporting of the dependent variable
+
+### Selective reporting of the independent variable
+
+### Optional stopping
+
+Also known as: *data snooping*
+
+### Outlier exclusion
+
+### Controlling for covariates
+
+### Scale redefinition
+
+### Variable transformation
+
+### Discretizing variables
+
+### Exploiting alternative hypothesis tests
+
+### Favorable imputation
+
+### Subgroup analyses
+
+### Incorrect rounding
+
+## Combining different strategies
+
+One approach is to use one strategy after strategy until a desired result is achieved.
+
+A different strategy, which can also be more effective, is to combine different strategies.
+
+## Summary 
+
+...

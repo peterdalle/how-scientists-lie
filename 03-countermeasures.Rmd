@@ -1,0 +1,61 @@
+# Countermeasures to Questionable Research Practices {#countermeasures}
+
+## Blind analysis {#blind-analysis}
+
+Blind analysis means removing any identifying information before the analysis, and only to add them back again once the analysis is done.
+
+The goal of blind analysis is to remove any unintentional biases that might occur, such as rerunning the analysis in a different way when the results are not in the preferred direction.
+
+## Replications {#replications}
+
+...
+
+## Preprints {#preprints}
+
+Preprints primarily counteract [publication bias](#publication-bias).
+
+## Preregistration {#preregistration}
+
+...
+
+## Registered reports {#registered-reports}
+
+...
+
+## Change significance threshold {#change-alpha}
+
+In the social sciences, it is common to use p < .05 as a threshold for statistical significance (what counts as a discovery or positive result). This means that we allow 5 percent false positives by chance alone, on average. In combination with publication bias and questionable research practices, the false positive rate is actually much higher.
+
+However, several has suggested that researchers should lower the significance threshold to p < .005 [@benjamin_redefine_2018].
+
+Others have responded that researchers should instead justify what threshold they use [@lakens_justify_2018].
+
+## Adversarial collaboration
+
+Also known as: *red team/blue team*
+
+Two or more scientists with opposing views work together. 
+
+The goal of adversarial collaboration is to design a study that satisfies both sides of the debate, and that there are no obvious biases or weaknesses in the design of the study.
+
+## Thinking about biases
+
+Also known as: *metacognition*
+
+@greenland_need_2017 suggested that we need to bring cognitive psychology into methodology.
+
+## Incentives
+
+...
+
+## Research Culture
+
+...
+
+- **Being able to speak up against**.
+- **Scientific integrity**.
+- **Quality over quantity**.
+
+## Summary 
+
+...

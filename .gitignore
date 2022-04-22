@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+.Rbuildignore
+_publish.R
+*_files
+_book
+_main.*
+packages.bib
