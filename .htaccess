@@ -1,0 +1,6 @@
+# Redirect www.howscientistslie.com --> howscientistslie.com
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.howscientistslie.com [NC]
+RewriteRule ^(.*)$ https://howscientistslie.com/$1 [L,R=301]
+
+ErrorDocument 404 /404.html
