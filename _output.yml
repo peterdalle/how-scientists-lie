@@ -1,28 +1,27 @@
+# HTML website
 bookdown::bs4_book:
+  css: css/style.css
+  footnotes_inline: true
+  template: _includes/bs4_book.html
   theme:
     primary: "#5b7886"
-    base_font: "Roboto"
-  repo: https://github.com/peterdalle/how-scientists-lie
+    danger:  "#dc3545"
+    success: "#198754"
+    info:    "#0dcaf0"
+    warning: "#ffc107"
+  repo:
+    base: https://github.com/peterdalle/how-scientists-lie
+    branch: main
   includes:
     in_header: _includes/header.html
 
-bookdown::gitbook:
-  css: style.css
-  config:
-    toc:
-      collapse: section
-      before: |
-        <li><a href="./">How Scientists Lie</a></li>
-    edit:
-      link: https://github.com/peterdalle/how-scientists-lie
-  includes:
-    in_header: _includes/header.html
-
-bookdown::pdf_book:
+# PDF book
+bookdown::tufte_book2:
   includes:
     in_header: _includes/preamble.tex
   latex_engine: xelatex
-  citation_package: natbib
+  #citation_package: natbib
   keep_tex: yes
 
+# EPUB e-book
 bookdown::epub_book: default

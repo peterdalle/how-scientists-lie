@@ -1,55 +1,65 @@
 # Questionable Research Practices (QRPs) {#qrp}
 
-Questionable research practices are the steroids of science.
+*Questionable research practices*, or just QRPs, are the steroids of science, and "may constitute the prevailing research norm" [@john_measuring_2012, 524].
 
-## What are QRPs?
-
-The term *questionable research practices*, or QRPs for short, originated from @john_measuring_2012. However, they did not give a definition apart from giving examples and analogies:
+The term originated from @john_measuring_2012 who provided the following definition:
 
 > Questionable research practices (QRPs), such as excluding data points on the basis of post hoc criteria, can spuriously increase the likelihood of finding evidence in support of a hypothesis. [...] QRPs are the steroids of scientific competition, artificially enhancing performance and producing a kind of arms race in which researchers who strictly play by the rules are at a competitive disadvantage. QRPs, by nature of the very fact that they are often questionable as opposed to blatantly improper, also offer considerable latitude for rationalization and self-deception. [@john_measuring_2012, 524]
 
+## Why QRPs are wrong
+
+QRPs are questionable, and sometimes unethical, when these practices are carried out in violation with a particular purpose (which can be explicitly stated upfront or implied by the situation at hand). This means that there is nothing wrong with cherry-picking data, for example, and telling people that that is exactly what you did. Failing to disclose the cherry-picking, however, can be questionable and even scientific misconduct in some instances. Consequently, the fact that the practice is *misleading* can be said to be a necessary condition for a research practice to be questionable, rather than the mere use of a particular research practice.
+
+QRPs does not say anything whether people had intent or not to mislead, because QRPs are misleading regardless of intent. It is nonetheless important to acknowledge that we all make mistakes, and that the QRP concept used here is applied to practices and behaviors, not to individuals motivations, intent or other psychological factors.
+
 ## Scientific misconduct {#scientific-misconduct}
 
-What is the difference between questionable reserarch practices and scientific misconduct?
+Scientific misconduct is typically:
 
-The main difference is ...
+- fabrication
+- falsification
+- plagiarism
+- distortion
 
-...
+4 percent of Dutch researchers has admitted to fabrication, according to a survey of 6,813 researchers across disciplines [@gopalakrishna_prevalence_2022].
 
-## Prevalence of QRPs in different fields
+## Prevalence of QRPs in different disciplines
 
 How common are questionable research practices? We can take a look across different fields.
 
-### Natural Sciences
+```{r qrp_prevalence_data}
+data <- read.csv("data/prevalence_of_qrps.csv")
+estimates <- as.integer(sub(pattern="%", replacement="" , x=data$estimate))
+```
 
-...
+About `r round(mean(estimates))` percent of researchers across disciplines have used questionable research practices, but it varies between `r min(estimates)` and `r max(estimates)` percent depending on the group of researchers.
 
-### Social Sciences
+```{r qrp_prevalence_table, results='as-is'}
+library(dplyr)
+library(knitr)
 
-...
-
-### Humanities
-
-...
-                                                     
+data |>
+  mutate(population = paste(sample_size, population)) |>
+  select(estimate, population, reference) |>
+  kable(col.names = c("Prevalence", "Researchers", "Reference"), justify=c("c", "l", "l"))
+```                                                   
 
 ## Consequences
 
 ### False findings
 
-The (false positive rate) has been estimated a number of times.
+@ioannidis_why_2005 suggested that most of published research findings are false.
 
-- Schimmack
-- Ioannidis
+### Bad methods propogate
 
-### Waste of time and money
+@smaldino_natural_2016 shows the natural selection of bad science through simulation and that
 
-"A lot of money go down the drain in pseudotests theories" Meehl
+> Poor research design and data analysis encourage false-positive findings. Such poor methods persist despite perennial calls for improvement, suggesting that they result from something more than just misunderstanding. [...] successful labs produce more ‘progeny,’ such that their methods are more often copied and their students are more likely to start labs of their own. Selection for high output leads to poorer methods and increasingly high false discovery rates. [@smaldino_natural_2016, 1]
+
+### Wastes time and money
+
+> a tremendous amount of taxpayer money goes down the drain in research that pseudotests theories [@meehl_why_1990, 230]
 
 ### Lower public trust
 
-...
-
 ## Summary
-
-...

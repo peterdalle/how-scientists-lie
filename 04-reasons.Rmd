@@ -1,23 +1,23 @@
-# Why do Scientists Lie? {#reasons}
+# Why Questionable Research Practices Occur {#reasons}
 
-[@bright_why_2021]
+## Bias towards positive results
+
+The terms "positive" and "negative" findings are ambigious and may be substituted to the more relevant terms.^[Positive results can mean something is happening, whereas negative results means that something is *not* happening (null finding). The terms are often used in this way in relation to statistical significance such as p < 0.05. However, the term can also mean positive (plus) and negative (minus) in relation to the direction of the effect. A positive result of smoking on cancer is when it gives cancer (+). A negative result of smoking on cancer is When it prevents cancer (-).]
+
+Both journal editors and reviewers can display this bias when they select articles for publication. But researchers can also display this bias when they [p-hack](#p-hacking).
+
+## Bias towards novelty
 
 ## Status-seeking
 
-...
-
 ## Being first
 
-...
+[@bright_why_2021]
 
 ## Activism
 
-...
-
 ## Incentive structure
 
-...
+For instance, some departments at the Aarhus University in Denmark give 5,000 DKK (about 500 EUR) in extra salary for every article a researcher manges to publish in a desirable journal.
 
-## Summary 
-
-...
+## Summary {#reasons-summary}
