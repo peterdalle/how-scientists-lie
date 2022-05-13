@@ -2,7 +2,7 @@ field,             estimate, population,                             sample_size
 "natural science",    "51%", "ecologists and evolutionary biologists",       807, "@fraser_questionable_2018"
 "social science",     "27%", "U.S. psychologists",                          2155, "@john_measuring_2012"
 "social science",     "58%", "U.S., European and Australian psychologists", 1166, "@motyl_state_2017"
-"social science",     "37%", "Italian psychologsts",                         277, "@agnoli_questionable_2017"
+"social science",     "37%", "Italian psychologists",                        277, "@agnoli_questionable_2017"
 "social science",     "38%", "psychology researchers",                        53, "@bosco_harkings_2016"
 "social science",     "47%", "German psychologists",                        1138, "@fiedler_questionable_2016"
 "social science",     "50%", "management researchers",                       746, "@banks_questions_2016"
