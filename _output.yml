@@ -1,5 +1,6 @@
 # HTML website
 bookdown::bs4_book:
+  default: yes
   css: css/style.css
   footnotes_inline: true
   template: _includes/bs4_book.html
@@ -14,6 +15,7 @@ bookdown::bs4_book:
     branch: main
   includes:
     in_header: _includes/header.html
+  pandoc_args: --top-level-division=chapter
 
 # PDF book
 bookdown::tufte_book2:
@@ -24,4 +26,5 @@ bookdown::tufte_book2:
   keep_tex: yes
 
 # EPUB e-book
-bookdown::epub_book: default
+bookdown::epub_book:
+

@@ -10,14 +10,16 @@
   <meta name="author" content="$author-meta$" />
   $endfor$
 
-   $if(description)$<meta name="description" content="$description$" />$endif$
-   <meta name="generator" content="placeholder" />
+  $if(description)$<meta name="description" content="$description$" />$endif$
+  <meta name="generator" content="placeholder" />
   <meta property="og:title" content="$pagetitle$" />
   <meta property="og:type" content="book" />
   $if(url)$<meta property="og:url" content="$url$" />$endif$
   $if(cover-image)$<meta property="og:image" content="$url$/$cover-image$" />$endif$
   $if(description)$<meta property="og:description" content="$description$" />$endif$
 
+  $if(favicon-image)$<link rel="icon" sizes="196x196" href="/$favicon-image$" />$endif$
+  $if(favicon-image)$<link rel="shortcut icon" sizes="196x196" href="/$favicon-image$" />$endif$
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="$pagetitle$" />
   $if(twitter-handle)$<meta name="twitter:site" content="@$twitter-handle$" />$endif$

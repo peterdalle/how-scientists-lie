@@ -22,19 +22,45 @@ pre code {
 }
 .rmdnote, .rmdtip, .rmdwarning {
   padding: 1em 1em 1em 4em;
-  margin-bottom: 10px;
+  margin: 30px 0;
   background: #f5f5f5 5px center/3em no-repeat;
 }
 .rmdnote {
-    padding: 20px 30px;
-    margin-bottom: 10px;
-    background: #effaff;
-    border: none;
-    border-radius: 6px;
+  padding: 20px 30px 30px 100px;
+  background: #effaff;
+  border: 1px solid #e6f7ff;
+  border-radius: 6px;
+}
+.rmdnote:before {
+  position: absolute;
+  left: 41px;
+  display: inline-block;
+  content: "\f05a";
+  font-family: 'Font Awesome 5 Pro';
+  font-weight: 900;
+  font-size: 300%;
+  line-height: 60px;
+  color: #5a78862e;
+}
+.rmdnote blockquote {
+  border-color: #5a78862e;
 }
 .rmdtip {
+  border-color: #e8e8e8;
 }
 .rmdwarning {
+  border-color: #5a78862e;
+}
+.rmdwarning:before {
+  position: absolute;
+  left: 50px;
+  display: inline-block;
+  content: "\f071";
+  font-family: 'Font Awesome 5 Pro';
+  font-weight: 900;
+  font-size: 300%;
+  line-height: 60px;
+  color: #5a78862e;
 }
 .video {
   border-bottom: 2px solid #eee;
@@ -54,7 +80,7 @@ pre code {
   opacity: 1;
 }
 .img.cover {
-  margin: 0 1rem 0 3rem;
+  margin: 0 1rem 0 3rem !important;
 }
 .chapter-nav .prev, .chapter-nav .next {
   background: none;
@@ -87,4 +113,45 @@ pre code {
 }
 #gdpr-label {
   padding-left: 10px;
+}
+#toc {
+  margin-top: 50px;
+  padding: 10px;
+  background: #eef6fa;
+  border-radius: 6px;
+}
+#toc h2 {
+  margin-top: 10px;
+}
+#toc .header-section-number {
+  color: #bbbbbb;
+}
+nav[data-toggle="toc"] .nav a.nav-link.active, nav[data-toggle="toc"] .nav .nav-link.active > li > a {
+  background: #5B7886;
+  color: #fff;
+  border-radius: 4px;
+}
+nav[data-toggle="toc"] .nav a.nav-link.active .header-section-number, nav[data-toggle="toc"] .nav .nav-link.active > li > a .header-section-number {
+  color: #ffffff7a;
+}
+#content h2 {
+  font-weight: bold;
+  margin-top: 50px;
+}
+.pull-quote {
+  padding: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 190%;
+  letter-spacing: -0.09rem;
+  color: #8899a0;
+}
+.pull-quote blockquote {
+  border: none
+}
+.pull-quote blockquote:before {
+  content: "\f10d";
+  font-family: 'Font Awesome 5 Pro';
+  position: absolute;
+  left: 17px;
 }
