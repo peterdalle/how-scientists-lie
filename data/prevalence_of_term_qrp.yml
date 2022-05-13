@@ -1,0 +1,31 @@
+search:
+  query: TITLE-ABS-KEY(""questionable research practices"""))
+  database: Scopus
+  search_date: 2022-05-01
+  description: How many times the term "questionable research practices" occur in the Scopus database.
+     Hits are number of documents that match search query (only hits > 0 are included).
+  data_variables: Year, hits
+  data: 
+    - 2022, 23
+    - 2021, 52
+    - 2020, 52
+    - 2019, 32
+    - 2018, 34
+    - 2017, 27
+    - 2016, 21
+    - 2015, 16
+    - 2014, 15
+    - 2013, 2
+    - 2012, 5
+    - 2010, 1
+    - 2009, 1
+    - 2008, 2
+    - 2007, 1
+    - 2006, 1
+    - 2005, 1
+    - 2003, 2
+    - 2002, 1
+    - 1997, 1
+    - 1996, 1
+    - 1982, 1
+    - 1974, 1
