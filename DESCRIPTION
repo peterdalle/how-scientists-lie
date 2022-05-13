@@ -12,5 +12,6 @@ Depends:
     R (>= 4.1.0)
 Imports:
     bookdown,
-    dplyr
+    dplyr,
+    knitr
 Encoding: UTF-8
