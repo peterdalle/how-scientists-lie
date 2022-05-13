@@ -1,4 +1,5 @@
 --- 
+pagetitle: "How Scientists Lie"
 title: "How Scientists Lie"
 subtitle: "Catalogue of Questionable Research Practices and its Remedies"
 author: "Peter M. Dahlgren"
@@ -10,113 +11,38 @@ documentclass: book
 bibliography: book.bib
 biblio-style: apalike
 csl: _includes/apa6.csl
+lot: true
+lof: true
+number-sections: true
 link-citations: true
 links-as-notes: true
 colorlinks: true
 github-repo: peterdalle/how-scientists-lie
 cover-image: images/cover.png
+favicon-image: images/favicon-196.png
+twitter-handle: peterdalle
 url: https://howscientistslie.com/
-description: "Catalogue of questionable research practices and its remedies. A guide to misleading science and research."
+description: "A book about questionable research practices (QRPs) and its remedies. A guide to misleading science and research and how we can improve it."
 ---
 
-# Welcome to How Scientists Lie {-}
+# How Scientists Lie {- #intro}
 
-<a href="./"><img src="images/cover.png" width="300" height="500" class="cover" alt="Book cover" /></a>
+<a href="/preface.html"><img src="images/cover.png" width="300" height="500" class="cover mb-5" alt="Book cover" /></a>
 
 How do scientists lie? Which strategies do they use? The book [*How Scientists Lie*](https://howscientistslie.com/) provides a catalogue of questionable research practices (QRPs), the steroids of research.
 
-This book is for students, junior researchers, and others who have an interest in research that does not mislead.
+This book is for students, junior researchers, and others who have an interest in research that does not mislead. The book also suggests remedies to questionable research practices that is applicable to the social sciences, the natural sciences, and the humanities.
 
 <small>
-You can visit the [GitHub repository for this book](https://github.com/peterdalle/how-scientists-lie) and contribute.
+This is the work-in-progress toward the 1st edition. You can influence the creation of this book. Visit the [GitHub repository](https://github.com/peterdalle/how-scientists-lie) and contribute.
 </small>
 
-# Preface {-}
+## Support the book {- #support-book}
 
-The purpose of this book is to become the goto resource about questionable research practices, the steroids of research, and to provide a pedagogical and educational introduction to these practices and suggest remedies.
+If you find the book useful, you can:
 
-The main point I am trying to make in this book is that questionable research practices are fundamentally about *reasoning*. [Excluding outliers](#outlier-exclusion), for example, may be related to statistics but the exclusion depends on the reasons given. There are no statistics in the world that can tell researches to exclude.^[This relates to the difference between *ontological subjectivity* and *epistemological objectivity* [@hacking_social_1999]. For example, to exclude outliers or not is subjective, but *how* you exclude outliers is objective.] This means that the "errors of reasoning and irresponsible conclusions from the quantitative case originate from acts, which in principle are performed exactly the same in qualitative research" [@de_groot_meaning_1956, 8].
-
-The book is free of charge. Books at scientific publishing companies are usually too expensive and receives little attention. Why not just put it online for everyone?
-
-## Outline {-}
-
-- **[Chapter 1](#qrp)** describes what questionable research practices (QRPs) are.
-- **[Chapter 2](#catalogue)** outlines several types of questionable research practices that has been identified in the research literature.
-- **[Chapter 3](#remedies)** suggests how questionable research practices can be prevented.
-* **[Chapter 4](#reasons)** introduces several explanations to why questionable research practices occur.
-* **[Chapter 5](#resources)** shows resources and tools that can help your work.
-
-## About the author {-}
-
-[Peter M. Dahlgren](https://peterdahlgren.com/), PhD, studies metascience, selective information search, and confirmation bias.
-
-## Roadmap {-}
-
-☑️ Build website   
-🟦 Expand catalogue of QRPs and their prevalence   
-🟦 Expand catalogue of remedies   
-🟦 Continuous peer-review   
-🟦 Proofread   
-
-The book is written in Markdown using the [bookdown](https://bookdown.org/) R package and was last built on `r Sys.Date()`.
-
-## Acknowledgments {-}
-
-You can contribute to the book via the [GitHub repository](https://github.com/peterdalle/how-scientists-lie) and will be included here in the acknowledgments. Self-promotion is encouraged!
-
-Cover icons: <a href="https://www.vecteezy.com/free-vector/poison" rel="nofollow">Poison Vectors by Vecteezy</a>
-
-## How to cite this book {-}
-
-```{r current_year}
-year <- substr(Sys.Date(), 1, 4)
-```
-
-- **APA**:   
-  Dahlgren, P. M. (`r year`). *How Scientists Lie*. <https://howscientistslie.com/>
-- **Chicago**:   
-  Dahlgren, Peter M. `r year`. *How Scientists Lie*. <https://howscientistslie.com/>.
-- **Vancouver**:   
-  Dahlgren PM. How Scientists Lie [Internet]. `r year`. Available from: <https://howscientistslie.com/>
-
-```bib
-@book{how_scientists_lie,
-  title = {How {{Scientists Lie}}},
-  author = {Dahlgren, Peter M.},
-  year = {`r year`},
-  url = {https://howscientistslie.com/}
-}
-```
-
-## License {-}
-
-<small>
-This work by [Peter M. Dahlgren](https://peterdahlgren.com/) is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.    
-
-<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" src="images/by-nc-sa.svg" width="88" height="31" class="mt-1 mb-5" /></a>
-</small>
-
-# Email course {-}
-
-Are you a student, junior scholar or a journalist? Do you want to know more about questionable research practices? Subscribe and receive the gist of the book in one short email at a time, delivered every two weeks.
-
-*Subscribe to the waiting list below and you'll receive the first course email as soon as it's ready!*
-
-<div style="padding: 40px; background: #f5f5f5; border-radius: 6px; margin-bottom: 20px">
-<form accept-charset="utf-8" action="https://www.backendmedia.se/sendy/subscribe" method="POST">
-<input class="form-control form-control-lg mb-2" id="email" name="email" placeholder="Your email" required type="email" />
-<div style="display:none;"><label for="hp">HP</label><br>
-<input id="hp" name="hp" type="text">
-</div>
-<input name="list" type="hidden" value="9Qgtv8NaC1NU26BlzcfNXQ"> 
-<input name="subform" type="hidden" value="yes">
-<div class="form-check">
-<input type="checkbox" name="gdpr" id="gdpr" class="form-check-input"> 
-<label class="form-check-label" id="gdpr-label" for="gdpr">I agree to the privacy terms below.</label>
-</div>
-<input class="btn btn-primary mt-3 btn-lg" id="submit" name="submit" type="submit" value="Subscribe to waiting list" />
-</form>
-</div>
-
-<small>Privacy: Your email is only collected and stored for the purpose of this list. It is not disclosed to anyone else. Opt-out link is included in each email.</small>
+- Use the book in your teaching
+- Tell people about the book
+- Link to the book on social media
+- Review, proofread or suggest changes
+- [Cite the book](#cite) in your own work

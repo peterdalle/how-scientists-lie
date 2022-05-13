@@ -1,65 +1,146 @@
-# Questionable Research Practices (QRPs) {#qrp}
+# (PART) Fundamentals {-}
 
-*Questionable research practices*, or just QRPs, are the steroids of science, and "may constitute the prevailing research norm" [@john_measuring_2012, 524].
+# Questionable research practices (QRPs) {#qrps}
 
-The term originated from @john_measuring_2012 who provided the following definition:
+*Questionable research practices*, or just QRPs, are the steroids of research. They are the gray area between good research and scientific misconduct. Just like steroids, QRPs give a competitive advantage to researchers who use them and may be difficult to detect for an outsider.
 
-> Questionable research practices (QRPs), such as excluding data points on the basis of post hoc criteria, can spuriously increase the likelihood of finding evidence in support of a hypothesis. [...] QRPs are the steroids of scientific competition, artificially enhancing performance and producing a kind of arms race in which researchers who strictly play by the rules are at a competitive disadvantage. QRPs, by nature of the very fact that they are often questionable as opposed to blatantly improper, also offer considerable latitude for rationalization and self-deception. [@john_measuring_2012, 524]
+Cheating, misconduct, unetichal behavior and questionable research have been discussed since at least the 1800s.^[See appendix ([QRPs through history](#qrps-history)) for an etymology of the term.] However, the term *questionable research practices* originated from a 1992 report by a committee devoted to research integrity. They wrote the following:
 
-## Why QRPs are wrong
+> Questionable research practices are actions that violate traditional values of the research enterprise and that may be detrimental to the research process. [@research_responsible_1992, 5]
 
-QRPs are questionable, and sometimes unethical, when these practices are carried out in violation with a particular purpose (which can be explicitly stated upfront or implied by the situation at hand). This means that there is nothing wrong with cherry-picking data, for example, and telling people that that is exactly what you did. Failing to disclose the cherry-picking, however, can be questionable and even scientific misconduct in some instances. Consequently, the fact that the practice is *misleading* can be said to be a necessary condition for a research practice to be questionable, rather than the mere use of a particular research practice.
+The committee also noted, in 1992, that "there is at present neither broad agreement as to the seriousness of these actions nor any consensus on standards for behavior in such matters" [-@research_responsible_1992, 5]. Since then, the seriousness has been well documented. 
 
-QRPs does not say anything whether people had intent or not to mislead, because QRPs are misleading regardless of intent. It is nonetheless important to acknowledge that we all make mistakes, and that the QRP concept used here is applied to practices and behaviors, not to individuals motivations, intent or other psychological factors.
+## Why QRPs are bad {#qrps-bad}
 
-## Scientific misconduct {#scientific-misconduct}
+A research practice can be questionable when a practice is carried out in violation with a particular norm or value. That norm or value can be explicitly stated upfront as a purpose, or implied by a specific discipline or situation. Consequently, we can say that a practice that is *misleading* is a necessary condition for a research practice to be questionable.
 
-Scientific misconduct is typically:
+This means that there is nothing wrong with cherry-picking data and telling people that that is exactly what you did. Cherry-picking can be done for educational purposes. Failing to disclose the cherry-picking, however, can be questionable and even scientific misconduct in some instances.^[Another good example is data simulation: letting the computer generate data using random number generators. It is nothing wrong with these as long as they are disclosed as simulations, but become a case of scientific fraud as soon a researcher tries to publish it as real data that has been empirically collected.] 
 
-- fabrication
-- falsification
-- plagiarism
-- distortion
+```{r, results='asis'}
+pull_quote("QRPs are the steroids of scientific competition, artificially enhancing performance and producing a kind of arms race in which researchers who strictly play by the rules are at a competitive disadvantage.")
+```
 
-4 percent of Dutch researchers has admitted to fabrication, according to a survey of 6,813 researchers across disciplines [@gopalakrishna_prevalence_2022].
+QRPs does not say anything about whether people had intent or not to mislead, because QRPs are about behavior. In other words, QRPs are misleading regardless of intent, and they may even be common precisely because researchers are unaware that the practices are questionable.
 
-## Prevalence of QRPs in different disciplines
+::: {.rmdnote}
+A rule of thumb for determining whether something is a questionable research practice: Would the conclusion (or the certainty of the conclusion) change if some information was disclosed about how the research was carried out? If the answer is yes, then there is a good chance that the research practice is questionable.
+:::
 
-How common are questionable research practices? We can take a look across different fields.
+The line between questionable research practices and scientific misconduct is blurry. Typically, scientific misconduct is often punishable by law or research integrity offices and includes practices such as fabrication, falsification, plagiarism and different types of distortion of the research. While outright fabrication is blatantly improper and more or less universally condemned and outlawed, questionable research practices are in the gray area and may even be accepted by some disciplines even though the research that eminates from these practices are misleading or even completely false. As @john_measuring_2012 argues, questionable research practices gives the researcher room for rationalization and self-deception.
 
-```{r qrp_prevalence_data}
+> QRPs are the steroids of scientific competition, artificially enhancing performance and producing a kind of arms race in which researchers who strictly play by the rules are at a competitive disadvantage. QRPs, by nature of the very fact that they are often questionable as opposed to blatantly improper, also offer considerable latitude for rationalization and self-deception. [@john_measuring_2012, 524]
+
+There is a large room for science to be wrong, even repeatedly so, but there is no room for science to be untrustworthy or dishonest. And QRPs can mislead not only others but also the researcher who use them.
+
+## Prevalence of QRPs in different disciplines {#qrps-prevalence}
+
+How common are questionable research practices? It has been suggested that they "may constitute the prevailing research norm" [@john_measuring_2012, 524]. But let ut take a look at the prevalance across different scientific fields and disciplines.
+
+@fanelli_how_2009 provided a review and meta-analysis of 21 surveys and found that an average of about
+
+- 2 percent of scientists admitted to fabrication, falsification, or data modification at least once
+- 34 percent of scientists admitted to other questionable research practices.
+
+Since then, there has also been a number of studies focusing on questionable research practices.
+
+```{r qrp-prevalence-data}
 data <- read.csv("data/prevalence_of_qrps.csv")
 estimates <- as.integer(sub(pattern="%", replacement="" , x=data$estimate))
 ```
 
-About `r round(mean(estimates))` percent of researchers across disciplines have used questionable research practices, but it varies between `r min(estimates)` and `r max(estimates)` percent depending on the group of researchers.
+An average of about `r round(mean(estimates))` percent of researchers across disciplines have used questionable research practices, but it varies between `r min(estimates)` and `r max(estimates)` percent depending on the group of researchers.
 
-```{r qrp_prevalence_table, results='as-is'}
+```{r qrp-prevalence-table, results='as-is'}
 library(dplyr)
 library(knitr)
+library(kableExtra)
 
 data |>
-  mutate(population = paste(sample_size, population)) |>
+  mutate(population = paste(format_number(sample_size), population)) |>
   select(estimate, population, reference) |>
-  kable(col.names = c("Prevalence", "Researchers", "Reference"), justify=c("c", "l", "l"))
-```                                                   
+  kable(col.names = c("Prevalence", "Researchers", "Reference"), align=c("c", "l", "l")) |>
+  kable_styling(bootstrap_options = c("striped"))
+```
+
+When it comes to scientific misconduct, which is a more gross violation of research norms than questionable researech practices, about 4 percent of Dutch researchers has admitted to fabrication. This number comes from a survey of 6,813 researchers across disciplines [@gopalakrishna_prevalence_2022].
+
+## The storybook image of the scientist {#storybook-image}
+
+What characterize a good scientist or a good researcher? According to @mahoney_scientist_1976 [p. 4], the storybook image of a scientists is someone who has
+
+1. *Intelligence*, occasionally spiced with creativity;
+2. Faith and expertise in *logical reasoning*;
+3. *Experimental* skills which insure the optimal collection of accurate data;
+4. *Objectivity* and emotional neutrality, with a loyalty only to truth;
+5. *Flexibility* reflected in a willingness to change one's opinion;
+6. *Humility* and personal disinterest in fame or recognition;
+7. *Communality* reflected in an open sharing of knowledge and action cooperation with colleagues; and
+8. *Suspension of judgment* when scientific evidence is insufficient or unclear.
+
+Mahoney, who was a psychologist studying scientists, made several intriguing observations and found that scientists behaved far from the storybook image:
+
+> He [the scientist] is not the paragon of objective reason; the saintly purveyor of truth. On the contrary, he is thoroughly fallible human being---capable of bigotry, ambition, and political expedience. Far from his mythical image, he is probably the most passionate of professionals. His research and reasoning skills are easily seduced by Procrustean desires---bending the evidence to fit his hypothesis. [@mahoney_scientist_1976, xii]
+
+Mahoney also received multiple threats from other scientists during his research. He argued that science is not a game where you play to win---rather, you play in order to be part of the game itself.
+
+## Theory-confirmation {#confirmation-bias}
+
+```{r disconfirmation-dilemma, fig.scap="Disconfirmation dilemma.", fig.cap="Researchers who are theory-centered face a dilemma about what they should do when the prediction is disconfirmed. Should they continue reanalyzing the data and hope that this will confirm the prediction? Should they revise the procedures? Or should they find another prediction from the theory? Reporting disconfirmed results may be difficult when journals are only interested in supported theories. Figure adapted from @greenwald_under_1986."}
+knitr::include_graphics("images/researcher-confirmation-bias.svg")
+```
+
+An important aspect of questionable research practices is confirmation bias during the research process. Unfortunately, researchers infrequently report disconfirmed results, but may instead persist trying to confirm the theory or abandon the problem altogether if it cannot be confirmed (Figure \@ref(fig:disconfirmation-dilemma)). 
+
+When researchers persist testing a theory in hope for a confirmed result, they are no longer testing the theory but rather trying to confirm the theory. Then it is only a matter of how productive and persistent the researcher is until the theory becomes confirmed. This means that any research that originates from this process becomes circular, because there is only one conclusion that is accepted.
+
+```{r, results='asis'}
+pull_quote("When researchers persist testing a theory in hope for a confirmed result, they are no longer testing the theory but rather trying to confirm the theory.")
+```
+
+It can be easy to dismiss confirmation bias as something that requires effort or that the researcher needs a prior belief about what the theory and data should show. However, none of that needs to be the case. First, seemingly innocuous behaviors can become victims of confirmation bias. Removing outliers and reanalyzing the data looking for statistically significant results, for instance, could take a couple of seconds but is still a confirmation bias. Second, the researcher does not have to believe anything about the theory or data but only persist in reanalyzing the data until the results become significant. It is similar to hitting the "next" button on the music player until you hear a good tune.
+
+::: {.rmdnote}
+Note that confirmation bias is not an explanation, but a behavior. Researchers can engage more or less in this behavior. The cause of the behavior, one the other hand, can be many things, such as motivations, incentives or simply routine.^[Beware the risk of circular reasoning here. That is, saying that researchers have a confirmation bias when they are trying to confirm theories is a circular restatement. In other words, trying to confirm theories *is* confirmation bias.]
+:::
 
 ## Consequences
 
-### False findings
+Questionable research practices makes it easier for researchers to become published and thus more qualified for higher salary, better positions, and increased salary. For this reason, they may be very attractive to use and the risk of getting caught are few. However, the practices also have some bad consequences for science as an enterprise, let alone researchers who *doesn't* cheat.
 
-@ioannidis_why_2005 suggested that most of published research findings are false.
+### Overgeneralizations
 
-### Bad methods propogate
+If researchers repeatedly test theories, and report the successes but not the failures (i.e., confirmed but not disconfirmed predictions), then the results will necessarily be overgeneralized. 
 
-@smaldino_natural_2016 shows the natural selection of bad science through simulation and that
+In other words, it may be the case that the theory only applies to certain people, certain situations, or to particular methods or apparatuses. But the fact that disconfirmed predictions are not reported can lead to claims and beliefs that the theory has a broader scope than it really have:
+
+> because no systematic empirical comparison of the evolved (confirming) procedures with earlier (disconfirming) ones has been attempted, the researcher is unlikely to detect the confirmation's dependence on the evolved details of procedure. Although the conclusions from such research need to be qualified by reference to the tried-and-abandoned procedures, those conclusions are often stated only in the more general terms of the guiding theory. Such conclusions constitute avoidable overgeneralizations. [@greenwald_under_1986, 220]
+
+### False-positive findings {#false-positives}
+
+False-positive findings are findings that are false but mistaken as true. For instance, if a study shows that a medical treatment works and we later find out that it actually doesn't work, then we can say that the original finding was a false-positive.
+
+The goal of science is that all findings should be *true-positives*---findings that reflect the true state of what is happening in the world. Even though this goal cannot be achieved in practice, it is nonethless a theoretical goal. For starters, it is obviously difficult to know whether a finding is a false-positive since we could have done something wrong which we may not yet know. It is also a question of money and resources. The more certain we want to be, the more it will typically cost (e.g., larger samples leads to increased precision, but are also more costly).
+
+When researchers are oriented towards confirming theories, it means that the research literature will contain more theories that are confirmed (rather than disconfirmed) where a significant proportion of the theories are also based on false-positives.
+
+@ioannidis_why_2005 suggested that most of published research findings are false-positives. However, others have argued that the number of false positives is considerably lower than Ioannidis initially argued [@leek_is_2017; @schimmack_estimating_2021].
+
+### Bad methods spread {#bad-methods}
+
+Questionable research practices make success easier for a researcher by more publications with impressive results. Those who use these practices are therefore in a better position to spread their practices and methods to colleagues and students. Those who use rigorous methods and reasoning, on the other hand, will not achieve the same amount of impressive results and will be less likely to spread their methods. It's a case of the bad gets richer and the good gets poorer.
+
+This process is detailed by @smaldino_natural_2016 who shows the natural selection of bad science through simulation. They argue that:
 
 > Poor research design and data analysis encourage false-positive findings. Such poor methods persist despite perennial calls for improvement, suggesting that they result from something more than just misunderstanding. [...] successful labs produce more ‘progeny,’ such that their methods are more often copied and their students are more likely to start labs of their own. Selection for high output leads to poorer methods and increasingly high false discovery rates. [@smaldino_natural_2016, 1]
 
-### Wastes time and money
+### Wastes time and money {#resource-waste}
+
+If questionable research practices lead to overgeneralized findings, false-positives, and bad methods findings, then it necessarily follows that at lot of time and money will be wasted on thes practices. Put simply:
 
 > a tremendous amount of taxpayer money goes down the drain in research that pseudotests theories [@meehl_why_1990, 230]
 
 ### Lower public trust
 
-## Summary
+## Summary {#qrps-summary}
+
+Questionable research practices (QRPs) are actions that violate traditional values of the research enterprise and that may be detrimental to the research process. They are the steroids of research, making it easier for a researcher to gain a competitive advantage over those who play by the rules. In contrast to scientific misconduct, which are blatantly improper, QRPs are in the gray area. QRPs are bad because they mislead and may give the false impression that the research was carried out in a particular way when in fact it was not. However, there are also circumstances where the same practices would be acceptable, where they do not mislead, and these practices would consequently not constitute QRPs.

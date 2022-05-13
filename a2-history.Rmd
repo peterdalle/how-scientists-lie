@@ -1,0 +1,94 @@
+# QRPs through history {- #qrps-history}
+
+Questionable research practices (QRPs) have been talked about in various ways throughout history. Here, we take a look at:
+
+- [the usage of the concept](#qrps-concept): various descriptions of questionable and unethical behaviors of scientists over time.
+- [the usage of the term](#qrps-term): the etymology of the term questionalbe research practices.
+
+## Use of the concept {#qrps-concept}
+
+Researchers have talked about bad research and bad science under various terms throughout history. [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage), a British mathematician, philosopher, inventor and mechanical engineer, provided the perhaps first written account of questionable research practices. 
+
+In **1830** he wrote the following on frauds of the researchers (observers):
+
+> SECTION 3. ON THE FRAUDS OF OBSERVERS.
+> 
+> Scientific inquiries are more exposed than most others to the inroads of pretenders; and I feel that I shall deserve the thanks of all who really value truth, by stating some of the methods of deceiving practised by unworthy claimants for its honours, whilst the mere circumstance of their arts being known may deter future offenders.
+> 
+> There are several species of impositions that have been practised in science, which are but little known, except to the initiated, and which it may perhaps be possible to render quite intelligible to ordinary understandings. These may be classed under the heads of hoaxing, forging, trimming, and cooking.
+> 
+> OF HOAXING. This, perhaps, will be better explained by an example. In the year 1788, M. Gioeni, a knight of Malta, published at Naples an account of a new family of Testacea, of which he described, with great minuteness, one species, the specific name of which has been taken from its habitat, and the generic he took from his own family, calling it Gioenia Sicula. It consisted of two rounded triangular valves, united by the body of the animal to a smaller valve in front. He gave figures of the animal, and of its parts; described its structure, its mode of advancing along the sand, the figure of the tract it left, and estimated the velocity of its course at about two-thirds of an inch per minute. He then described the structure of the shell, which he treated with nitric acid, and found it approach nearer to the nature of bone than any other shell.
+> 
+> The editors of the ENCYCLOPEDIE METHODIQUE, have copied this description, and have given figures of the Gioenia Sicula. The fact, however, is, that no such animal exists, but that the knight of Malta, finding on the Sicilian shores the three internal bones of one of the species of Bulla, of which some are found on the south-western coast of England, [Bulla lignaria] described and figured these bones most accurately, and drew the whole of the rest of the description from the stores of his own imagination.
+> 
+> Such frauds are far from justifiable; the only excuse which has been made for them is, when they have been practised on scientific academies which had reached the period of dotage. It should however be remembered, that the productions of nature are so various, that mere strangeness is very far from sufficient to render doubtful the existence of any creature for which there is evidence; [The number of vertebrae in the neck of the plesiosaurus is a strange but ascertained fact] and that, unless the memoir itself involves principles so contradictory, as to outweigh the evidence of a single witness, [The kind of contradiction which is here alluded to, is that which arises from well ascertained final causes; for instance, the ruminating stomach of the hoofed animals, is in no case combined with the claw-shaped form of the extremities, frequent in many of the carniverous animals, and necessary to some of them for the purpose of seizing their prey] it can only be regarded as a deception, without the accompaniment of wit.
+> 
+> FORGING differs from hoaxing, inasmuch as in the latter the deceit is intended to last for a time, and then be discovered, to the ridicule of those who have credited it; whereas the forger is one who, wishing to acquire a reputation for science, records observations which he has never made. This is sometimes accomplished in astronomical observations by calculating the time and circumstances of the phenomenon from tables. The observations of the second comet of 1784, which was only seen by the Chevalier D'Angos, were long suspected to be a forgery, and were at length proved to be so by the calculations and reasonings of Encke. The pretended observations did not accord amongst each other in giving any possible orbit. But M. Encke detected an orbit, belonging to some of the observations, from which he found that all the rest might be almost precisely deduced, provided a mistake of a unity in the index of the logarithm of the radius vector were supposed to have been made in all the rest of the calculations. ZACH. CORR. ASTRON. Tom. IV. p. 456. Fortunately instances of the occurrence of forging are rare.
+> 
+> <mark>TRIMMING consists in clipping off little bits here and there from those observations which differ most in excess from the mean</mark>, and in sticking them on to those which are too small; a species of "equitable adjustment," as a radical would term it, which cannot be admitted in science.
+> 
+> This fraud is not perhaps so injurious (except to the character of the trimmer) as cooking, which the next paragraph will teach, The reason of this is, that the AVERAGE given by the observations of the trimmer is the same, whether they are trimmed or untrimmed. His object is to gain a reputation for extreme accuracy in making observations; but from respect for truth, or from a prudent foresight, he does not distort the position of the fact he gets from nature, and it is usually difficult to detect him. He has more sense or less adventure than the Cook.
+> 
+> <mark>OF COOKING</mark>. This is an art of various forms, the object of which is to give to ordinary observations the appearance and character of those of the highest degree of accuracy. One of its numerous processes is <mark>to make multitudes of observations, and out of these to select those only which agree, or very nearly agree.</mark> If a hundred observations are made, the cook must be very unlucky if he cannot pick out fifteen or twenty which will do for serving up. Another approved receipt, when the observations to be used will not come within the limit of accuracy, which it has been resolved they shall possess, is to calculate them by two different formulae. The difference in the constants employed in those formulae has sometimes a most happy effect in promoting unanimity amongst discordant measures. If still greater accuracy is required, three or more formulae can be used. It must be admitted that this receipt is in some instances rather hazardous: but in cases where the positions of stars, as given in different catalogues, occur, or different tables of specific gravities, specific heats, &c. &c., it may safely be employed. As no catalogue contains all stars, the computer must have recourse to several; and if he is obliged to use his judgment in the selection, it would be cruel to deny him any little advantage which might result from it. It may, however, be necessary to guard against one mistake into which persons might fall.
+> 
+> If an observer calculate particular stars from a catalogue which makes them accord precisely with the rest of his results, whereas, had they been computed from other catalogues the difference would have been considerable, it is very unfair to accuse him of COOKING; for--those catalogues may have been notoriously inaccurate; or--they may have been superseded by others more recent, or made with better instruments; or--the observer may have been totally ignorant of their existence.
+> 
+> It sometimes happens that the constant quantities in formulae given by the highest authorities, although they differ amongst themselves, yet they will not suit the materials. This is precisely the point in which the skill of the artist is shown; and an accomplished cook will carry himself triumphantly through it, provided happily some mean value of such constants will fit his observations. He will discuss the relative merits of formulae he has just knowledge enough to use; and, with admirable candour assigning their proper share of applause to Bessel, to Gauss, and to Laplace, he will take THAT mean value of the constant used by three such philosophers, which will make his own observations accord to a miracle.
+> 
+> There are some few reflections which I would venture to suggest to those who cook, although they may perhaps not receive the attention which, in my opinion, they deserve, from not coming from the pen of an adept.
+>
+> In the first place, it must require much time to try different formulae. In the next place it may happen that, in the progress of human knowledge, more correct formula: may be discovered, and constants may be determined with far greater precision. Or it may be found that some physical circumstance influences the results, (although unsuspected at the time) the measure of which circumstance may perhaps be recovered from other contemporary registers of facts. [Imagine, by way of example, the state of the barometer or thermometer.] Or if the selection of observations has been made with the view of its agreeing precisely with the latest determination, there is some little danger that the average of the whole may differ from that of the chosen ones, owing to some law of nature, dependent on the interval between the two sets, which law some future philosopher may discover, and thus the very best observations may have been thrown aside.
+> 
+> In all these, and in numerous other cases, it would most probably happen that the cook would procure a temporary reputation for unrivalled accuracy at the expense of his permanent fame. It might also have the effect of rendering even all his crude observations of no value; for that part of the scientific world whose opinion is of most weight, is generally so unreasonable, as to neglect altogether the observations of those in whom they have, on any occasion, discovered traces of the artist. In fact, the character of an observer, as of a woman, if doubted is destroyed.
+> 
+> The manner in which facts apparently lost are restored to light, even after considerable intervals of time, is sometimes very unexpected, and a few examples may not be without their use. The thermometers employed by the philosophers who composed the Academia Del Cimento, have been lost; and as they did not use the two fixed points of freezing and boiling water, the results of a great mass of observations have remained useless from our ignorance of the value of a degree on their instrument. M. Libri, of Florence, proposed to regain this knowledge by comparing their registers of the temperature of the human body and of that of some warm springs in Tuscany, which have preserved their heat uniform during a century, as well as of other things similarly circumstanced.
+> 
+> Another illustration was pointed out to me by M. Gazzeri, the Professor of Chemistry at Florence. A few years ago an important suit in one of the legal courts of Tuscany depended on ascertaining whether a certain word had been erased by some chemical process from a deed then before the court. The party who insisted that an erasure had been made, availed themselves of the knowledge of M. Gazzeri, who, concluding that those who committed the fraud would be satisfied by the disappearance of the colouring matter of the ink, suspected (either from some colourless matter remaining in the letters, or perhaps from the agency of the solvent having weakened the fabric of the paper itself beneath the supposed letters) that the effect of the slow application of heat would be to render some difference of texture or of applied substance evident, by some variety in the shade of colour which heat in such circumstances might be expected to produce. Permission having been given to try the experiment, on the application of heat the important word reappeared, to the great satisfaction of the court. [@babbage_reflections_1830]
+
+## Use of the term {#qrps-term}
+
+```{r qrp-term-usage,fig.width = 6, fig.height = 4, fig.cap="Use of the term *questionable research practices* over time. Data from the database Scopus up until 2021."}
+library(yaml)
+library(dplyr)
+library(ggplot2)
+
+data <- read_yaml("data/prevalence_of_term_qrp.yml")
+data <- read.table(text=data$search$data, sep=",", col.names=c("year", "hits"))
+data$year <- as.Date(paste0(data$year, "-01-01"))
+
+data |>
+  filter(year <= as.Date("2021-01-01")) |>
+  ggplot(aes(year, hits)) + 
+    geom_line() + 
+    geom_point(size=2) +
+    scale_x_date(date_breaks = "10 years", date_labels="%Y") +
+    scale_y_continuous(breaks = seq.int(0, 60, by=10),
+                      limits = c(0, 60),
+                      labels = c(0, 10, 20, 30, 40, 50, "60 docs")) +
+    theme_howscientistslie() +
+    labs(title = '"Questionable research practices" over time', 
+        subtitle = "Number of documents that mention the phrase",
+        x = NULL,
+        y = NULL) +
+    coord_cartesian(clip="off")
+```
+
+The use of the term *questionable research practices* is easy to measure because we can simply enter the query into a database and search.
+
+The earliest occurence of the term *questionable research practices* dates back to **1974** in a paper in Nature which stated that
+
+> A number of ethically questionable research practices brought to light recently in the United States have led to calls for tighter control of human experimentation. [@norman_guinea-pig_1974, 2]
+
+However, the phrasing used in this paper is rather *ethically questionable research practices*, which does not constitute a term on its own, but is merely adjectives describing a research practice.
+
+Similarly, the term has been used in a **1982** marketing paper:
+
+> A study of consumer reaction to questionable research practices investigates falsified sponsor identification, faked promises of anonymity, lies about interview length, promises of undelivered compensation, and selling under the guise of research. [@schneider_deceptive_1982]
+
+It is not until **1992** we find the phrase *questionable research practices* used as a term on its own, including a definition. This [definition of QRPs](#qrp) (which is also described in the beginning of this book) was as follows:
+
+> Questionable research practices are actions that violate traditional values of the research enterprise and that may be detrimental to the research process. [@research_responsible_1992, 5]
+
+Another paper on QRPs that does not define the concept but have been influential is @john_measuring_2012, who wrote in **2012**:
+
+> Questionable research practices (QRPs), such as excluding data points on the basis of post hoc criteria, can spuriously increase the likelihood of finding evidence in support of a hypothesis. [...] QRPs are the steroids of scientific competition, artificially enhancing performance and producing a kind of arms race in which researchers who strictly play by the rules are at a competitive disadvantage. QRPs, by nature of the very fact that they are often questionable as opposed to blatantly improper, also offer considerable latitude for rationalization and self-deception. [@john_measuring_2012, 524]

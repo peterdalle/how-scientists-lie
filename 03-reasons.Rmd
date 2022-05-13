@@ -1,0 +1,132 @@
+# Why questionable research practices occur {#reasons}
+
+Why do questionable research practices (QRPs) occur? The goal here is to offer as many explanations as possible, and not prematurely decide on which one is the most common and reject alternative ideas. That is because people are different, they work in different countries, and they organize themselves within different research cultures. That means that some of these explanations may be very uncommon, generally speaking, but still the most important explanations in a particular research environment. The explanations range from the individual to the institutional reward systems.
+
+## Six types of people
+
+@kornfeld_perspective_2012 reviewed 146 individual narratives contained in reports of individuals found guilty of misconduct by the U.S. Office of Research Integrity during 1992–2003. He categorized the people as follows:
+
+> - The desperate, whose fear of failure overcame a personal code of conduct,
+> - The perfectionist, for whom any failure was a catastrophe,
+> - The ethically challenged, who succumbed to temptation,
+> - The grandiose, who believed that his or her superior judgment did not require verification,
+> - The sociopath, who was totally absent a conscience (and, fortunately, was rare),
+> - The nonprofessional support staff, who were unconstrained by the ethics of science, unaware of the scientific consequences of their actions, and/or tempted by financial rewards.   
+> [@kornfeld_perspective_2012, 879]
+
+## Bias toward positive results {#positive-bias}
+
+A bias toward positive results or findings means that results that show that something is happening is favored in front of research that shows that nothing is happening. 
+
+For example, a study on a cancer treatment is likely to be published as long as it can show that the cancer decreases, or that the treatment increases the cancer. However, if the study shows that nothing is happening it is likely deemed "uninteresting" by a scientific journal and not published at all, leading to a [publication bias](#publication-bias).
+
+Both researchers and journal editors can have a bias towards positive results when they select articles for publication. But researchers can also display this bias when they [p-hack](#p-hacking), in such a way that they repeatedly redo an analysis with variation until it results in a positive result.
+
+::: {.rmdnote}
+The term "positive" is confusing and can mean at least three things:
+
+1. Positive can mean that something is happening. Conversely, a negative result means that nothing is happening (this is also called a null finding). For example, a cancer treatment that increases or decreases the cancer is thus positive. This is what is meant here with regards to a bias towards positive results. 
+2. Positive can refer to the direction of an effect. The cancer treatment may accidentally increase the cancer (positive direction or plus) or decrease the cancer (negative direction or minus). 
+3. Positive can also refer to an evaluation. A positive finding is thus good and desireable, whereas a negative finding is bad and undesirable. A cancer treatment that cures cancer is positive, but negative if it the cancer gets worse because of the treatment.
+:::
+
+## Peer recognition
+
+Being recognized by colleagues is an important motivation for scientists [@mahoney_scientist_1976, 71].
+
+## Bias towards novelty
+
+## Status-seeking
+
+## Competitiveness
+
+## Heuristics
+
+Heuristics are shortcuts we humans can use in order to make fast decisions. Oftentimes they help us to a reasonable conclusion but they may also lead us astray into territories that are misleading or false. 
+
+In research, we can identify several heuristics in relation to questionable research practices:
+
+- **Laziness**. Good research requires extensive documentation and rigour, which requires a lot of effort. And yet, the end result may turn out to be a disappointment and render a lot of work "uninteresting" for journals. Being lazy is consequently an option that makes a lot of these problems go away. No documentation, no rigor and little effort can be still be enough as long as you give the appearance of good research. This makes it possible to reap the benefits as someone who did all the hard work, especially when there are low standards for reporting results or documenting data (or worse, no standards at all).
+- **Popularity**. The fact that something is popular, famous or heavily hyped can sometimes be enough to make it acceptable and even desirable. If all researchers are using a particular method or approach, then you would be foolish not to use it yourself, wouldn't you? Similarly, it's easy to justify the use of questionable research practices if everyone else is using them.
+- **Authority**. If a respected professor use questionable research practices, then it can't really be wrong, can it? However, it can be easy to get the causality backwards: The professor might be an authority on a particular theory, but the fact that the authority used questionable resarch practices to get there can give the impression that these practices are indeed appropriate. In reality, the respected professor reached authority *despite* using questionable research practices.
+
+## Being first
+
+[@bright_why_2021]
+
+## Activism
+
+Activism can be an important cause for questionable research practices. For instance, a researcher can apply [selective rigor](#selective-rigor) to research which the researcher disagrees with, and have a low bar for acceptance for research that the researcher agrees with. 
+
+For an activist researcher, the primary use of evidence is as a means to further a casue, and the evidence itself is treated as secondary. There are consequently *good evidence* (evidence that further the cause) and *bad evidence* (evidence that threaten the cause). The activist researcher seek to create good evidence around a narrative, and the evidence is carefully crafted and selected to advance and amplify the narrative. The bad evidence is instead thoroughly scrutinized for mistakes and invalid conclusions. 
+
+This means that questionable research practices provide an opportunity for the activist researcher to reach the desired conclusion yet still rely on methods that looks convincing. Put simply, it is selling an idea under the guise of research.
+
+*Motivated reasoning* is one theory that may be particularly relevent here. In this context, the theory would state that an individual can have two motivations: a *goal-directed motivation* where the researchers tries to reach a particular conclusion, or a *accuracy-directed motivation* where the researcher is trying to reach an accurate conclusion. An activist researcher would consequently have a goal-directed motivation and would be expected to stop the inquiry and report the results once the desired goal is achieved, and continue looking for evidence until the goal is achieved. This maximizes the chances of finding evidence in favor of the goal. Furthermore, when the activist researcher reviews evidence that disagrees with the goal, that evidence is discredited by looking for mistakes, invalid conclusions, overgeneralizations, and other problems. Another term for this behavior is *motivated skepticism*.
+
+In contrast, a non-activist researcher with a accuracy-directed motivation would be expected to continue to scrutinize the findings regardless of what direction the conclusion points. A non-acticist researcher may also try to get awareness of own biases and then try to minimize those biases. This type of self-awareness would not be of any use for the activist researcher.
+
+Possible remedies are probably found on an [institutional level](#institution-stage) since there is no interest from the activist researcher to refrain from using questionable research practices. Mandatory [preregistrations](#preregistration) and [registered reports](#registered-report) for theory-driven or hypothesis-driven research could also make any questionable research practices transparent for others so that the research is at least recognized as activism. Another possible remedy is [adversarial collaboration](#adversarial-collaboration), although it could be difficult since the activist researcher may be reluctant to conduct research that could result in unfavorable conclusions.
+
+The discussion here is primarily related to academic researchers at universities as well as drug companies that are expected to work in the public interest. However, think tanks and similar organizations is one area where explicit activist researchers are likely to be found since they are not necessarily working in the public interest.
+
+## False perceptions
+
+We may have a false perception about what our colleagues and other researchers do. For instance, we may believe that almost everyone else is [HARKing](#harking) (writing hypotheses after the results are known), and this could lead researchers to actually HARK, despite the fact that no researcher would like to do so.
+
+In other words, researchers can engage in questionable research practices because they (1) believe that other researchers are okey with them or (2) believe that other researchers use them. In both cases, the researchers can justify the actions by stating what others are doing ("I'm just doing what everyone else is doing!").^[See also *preference falsification* [@kuran_private_1997].] 
+
+It is important to remember that researchers are also humans and humans can behave differently when they are part of a group. Put simply, researchers can also be victims of collective illusions, and believe (and act) as if most researchers have a particular belief or do a particular thing when in fact they do not. 
+
+```{r, results='asis'}
+pull_quote("When we work in a group we may be more inclined to be wrong together than right alone.")
+```
+
+For instance, if a researcher believes that other researchers use questionable research practices, then it might seem less wrong to use them. Similarly, if a researcher believes that reviewers and editors will only accept certain findings, they may be more inclined to look for those particular findings and disregard everything else. They may have no evidence at all that their beliefs are true, but the fact that they have been successful acting on these beliefs means that they are more likely to sustain the belief over time. Put simply, they continue doing what worked in the past.
+
+The important point here is that no researcher needs to actually agree with any of these beliefs, or even believe that what they are doing is right. It can be sufficient for them to believe that *other* researchers do it, or that *others* expect them to do it. This is one important reason why we cannot immediately jump from observations of what researchers do to a conclusion about what the researchers believe. It could also be that they are just humans who want to fit in. When we work in a group we may be more inclined to be wrong together than right alone.
+
+## Incentive structure {#incentives}
+
+The incentive structure (or simply *the incentives* or sometimes just *the system*) refers to the formal rewards that exists and what the research institutions or the scientific community may give researchers in order to motivate them to do good research.^[This is different from *informal* rewards, such as receiving status from colleagues from being first with an idea, which may not be direclty rewarded by formal institutions.]
+
+These incentives can come in many forms, for example:
+
+- **Salary**. The more researchers publish, the more they earn. For instance, some departments at the Aarhus University in Denmark give 5,000 DKK (about 500 EUR or 700 USD) in extra salary for every article a researcher manages to publish in a reputable journal. The incentive to earn more money could therefore be an important reason for questionable research practices.
+- **Awards**. Awards provide recognition and are an important reward for status-seekers.
+
+Although the incentives may indeed incentivize researchers to engage in questionable research practices, @yarkoni_no_2018 noted that the incentives may also act as an excuse to continue using questionable resarch practices:
+
+> There’s a narrative I find kind of troubling, but that unfortunately seems to be growing more common in science. The core idea is that the mere existence of perverse incentives is a valid and sufficient reason to knowingly behave in an antisocial way, just as long as one first acknowledges the existence of those perverse incentives. The way this dynamic usually unfolds is that someone points out some fairly serious problem with the way many scientists behave—say, our collective propensity to p-hack as if it’s going out of style, or the fact that we insist on submitting our manuscripts to publishers that are actively trying to undermine our interests—and then someone else will say, “I know, right—but what are you going to do, those are the incentives.”
+> [...]
+> What I do object to quite strongly is the narrative that scientists are somehow helpless in the face of all these awful incentives—that we can’t possibly be expected to take any course of action that has any potential, however small, to impede our own career development. [@yarkoni_no_2018]
+
+On the opposite side of the incentives is the [research integrity offices](#integrity-office) that make sure that researchers receive appropriate punishment for malpractice.
+
+## Funders
+
+## Conflict of interest
+
+## Journals
+
+Journals and editors may have a high demand for novel, positive and surpsiring findings, and reviewers can be instructed to focus on these particular results. This means that journals are particular influential in forming the scientific record, especially if researchers are pressured by their institutions to publish in journals for their own career survival.
+
+Many countries and research institutions have predetermined lists of which journals are good and prestiguous and worth publishing in. The prestige is often measured by citations and the metric Impact Factor (IF). The Impact Factor and similar measures are not dervied from God, but from academic databases mostly run by private companies (and some of them also run many of the journals). This means that journals can inflate their own citation count (and prestige) by encouraging authors who submit a paper to the journal to also cite previous articles from the journal. Several journals have been temporarily banned from these databases (and therefore metrics) because they have tried to artificially inrease their citation counts by self-citing [@moussa_bibliometric_2022].
+
+## Conformism
+
+Conformity is when people start to act, behave or think in the same way. To get a research degree means to conform to the norms of the discipline. However, those norms are not beneficial just because they happen to be conducted in the name of science, but can also become detrimental---especially when combined with questionable research practices.
+
+The American cardiologist Harlan M. Krumholz wrote the following about conformism:
+
+> When I entered medicine, I did not realize that there was such intense pressure to conform. But we learn early on that there is a decorum to medicine, a politeness. A hidden curriculum teaches us not to disturb the status quo. We are trained to defer to authority, not to question it. We depend on powerful individuals and organizations and are taught that success does not often come to those who ask uncomfortable questions or suggest new ways of providing care. [@krumholz_note_2012, 246]
+
+It should be emphasized that conformism itself is not bad. It depends on what people are conforming about, but in the case of questionable research practices (and the quote above) there are obviously areas where it can have severe consequences.
+
+While good conformism should be encouraged, bad conformism is difficult to counteract since it typically occurs top-down---from institutions and senior researchers down to the new (and often lone) researcher who is faced to conform in order to be accepted. For instance, "there appears to be a deeply ingrained culture within academia that allows for the use QRPs [questionable research practices] to persist, and thus trainees may feel tempted or pressured to engage in QRPs in their own research" [@moran_i_2021, 5].^[This study is based on a survey of 425 psychology students attending Canadian universities.]
+
+Remedies that might be relevant include [adversarial collaboration](#adversarial-collaboration), [anonymous publication](#anonymous-publication), [registered report](#registered-report).
+
+## Summary {#reasons-summary}
+
+There are many reasons why scientists engage in questionable research practices. But they can be boiled down to at least two levels: explanations about individuals (e.g., being first, status-seeking), and explanations about the research culture and institutional reward systems (e.g., incentive structures, conformism).

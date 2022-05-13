@@ -1,6 +1,6 @@
-# Catalogue of Questionable Research Practices {#catalogue}
+# Catalogue of questionable research practices {#catalogue}
 
-Here you will find a catalogue of questionable research practices.
+The goal of this catalogue is to detail all questionable research practices (QRPs) that has been identified in the research literature so far. Examples of possible remedies are also suggested in order to help alleviate the problems.
 
 <!--
 Structure for each QRP
@@ -14,13 +14,13 @@ Structure for each QRP
 
 ## Selective reporting --- the mother of all questionable resarch practices {#selective-reporting}
 
-Many of the questionable research practices that has been identified so far have one commonality, and that is the selectiveness in the reporting, analyses. In general, selective reporting can be carried out in two ways:
+Many of the questionable research practices that has been identified so far have one commonality, and that is the selectiveness when communicating how a study was made. In general, selective reporting can be carried out in two ways:
 
-- **Selective inclusion**. Cherry-picking one or more observations so that they are highlighted, when in fact there is no reason (given the purpose) to select these observations over others.
+- **Selective inclusion**. For instance, cherry-picking one or more observations so that they are highlighted, when in fact there is no reason (given the purpose) to select these observations over others.
 
-- **Selective omission**. Omitting one or more observations so that they are downplayed, when in fact there is reason to include these observations.
+- **Selective omission**. For example, omitting one or more observations so that they are downplayed, when in fact there is reason to include these observations.
 
-Selective inclusion and selective omission can be carried out simultaneously, so that a researcher cherry-picks one set of observations and omits another set of observations.
+Selective inclusion and selective omission can be carried out simultaneously, so that a researcher cherry-picks one set of observations and omits another set of observations. These inclusions and omissions are not limited to the data, but can also occur in a journal article and more specifically in the introduction (e.g., cherry-picking supporting evidence), methods section (e.g., omitting critical method papers), results and analysis (e.g., omitting multiple comparisons), and discussion section (e.g., cherry-picking results to highlight).
 
 ```{r, include=knitr::is_html_output(), results="asis"}
 include_video("videos/on-being-a scientist-selective-reporting.mp4", caption='The scientist is told to choose one useful result and forget about the rest. From the movie <a href="https://vimeo.com/174396251">On Being a Scientist (2016)</a>.')
@@ -28,25 +28,27 @@ include_video("videos/on-being-a scientist-selective-reporting.mp4", caption='Th
 
 ## Hypothesizing after the results are known (HARKing) {#harking}
 
-```{r, fig.cap="A Texas sharpshooter is someone who fires some gunshots, then paints a shooting target centered on the hits and claims to be a sharpshooter. Illustration by Dirk-Jan Hoek (CC-BY)."}
+```{r texas-sharpshooter, fig.scap="Hypothesizing after the results are known (HARKing).", fig.cap="Writing hypotheses after the results are known is similar to a Texas sharpshooter who fires some gunshots and then paints a target centered on the hits. Illustration by Dirk-Jan Hoek (CC-BY)."}
 knitr::include_graphics("images/texas-sharp-shooter.png")
 ```
 
-Hypothesizing after the results are known, or HARKing, is presenting an hypothesis that is informed by one's results as if the hypothesis was, in fact, an hypothesis that was conceived earlier [@kerr_harking_1998]. In other words, HARKing is presenting post hoc hypotheses as if they were a priori hypotheses. HARKing is similar to playing the lottery after the numbers have been drawn or, as the picture show, painting the target after shooting the gun.
+Hypothesizing after the results are known, or HARKing, is presenting an hypothesis that is informed by one's results as if the hypothesis was, in fact, an hypothesis that was conceived earlier [@kerr_harking_1998]. In other words, HARKing is presenting post hoc hypotheses as if they were a priori hypotheses. HARKing is similar to playing the lottery after the numbers have been drawn or, as figure @\ref(texas-sharpshooter) shows, painting the target after firing the gun.
 
-Note that hypothesizing after the results are known is perfectly permissible if the hypotheses are also disclosed as post hoc. It is also recommended to suggest new hypotheses based on the data. These are all part of an abductive research approach. However, these suggested hypotheses cannot be taken as a test of the data itself since they are derived from the data.
+HARKing may be followed by rationalization. The researcher constructs (or remembers) a seemingly good reason for the hypothesis that can be used to justify the hypothesis in front of reviewers or one's self. 
+
+Note that HARKing may be perfectly permissible if the hypotheses are also disclosed as post hoc. It is also recommended to suggest new hypotheses based on the data. These are all part of an abductive research approach. However, the suggested hypotheses cannot be taken as a test of the data itself since they are derived from the data.
 
 Read more: @rubin_when_2017, @hollenbeck_harking_2017, @lishner_harking_2021, @rubin_costs_nodate.
 
-Also known as: *Texas sharpshooter fallacy*
+As a common proverb goes, it's difficult to make predictions---especially about the future. More generally, HARKing can be said to be a special case of the *Texas sharpshooter fallacy*.
 
-::: {.rmdnote}
+::: {.rmdtip}
 Remedies: [preregistration](#preregistration), [registered report](#registered-report)
 :::
 
-## Removing hypothesis that "didn't work"
+## Removing unconfirmed hypotheses {#removing-hypotheses}
 
-::: {.rmdnote}
+::: {.rmdtip}
 Remedies: [preprint](#preprint), [preregistration](#preregistration), [registered report](#registered-report)
 :::
 
@@ -54,23 +56,38 @@ Remedies: [preprint](#preprint), [preregistration](#preregistration), [registere
 
 Publication bias occurs when the outcome of a study biases the decision to publish the study.
 
-::: {.rmdnote}
+This can lead to the infamous *file drawer problem*, which means that studies with negative results are never published but instead put in a file drawer and soon forgotten. 
+
+However, it may be unlikely that researchers simply put all their hard work into an empty void that the filedrawer represents. Instead, a researcher may use questionable research practices in order to turn the negative result into a positive result and then have it published. The consequence is far greater since it would increase the [false-positive findings](#false-positives) in the literature, and simulatenously cover up the negative findings. For this reason, publication bias is one of the most serios problems:
+
+> Publication bias may be the single most important problem to solve in order to increase the efficiency of the scientific project [@ingre_estimating_2018, 11]
+
+::: {.rmdtip}
 Remedies: [preprint](#preprint), [preregistration](#preregistration), [registered report](#registered-report)
 :::
 
-## Citation bias
-
-Citation bias occurs when an author cites research that preferentially supports a particular claim. Typically, it is research that shows positive findings rather than null findings (or negative findings).
-
 ## P-hacking
-
-Also known as: *garden of forking paths*, *multiple comparisons problem*
 
 P-hacking is the practice of conducting more than one analysis, and only reporting the statistically significant results (typically p < .05). It can also mean stopping the analysis once the result is significant. 
 
-The term *hacking* suggests a motivation to achieve a certain result, but p-hacking is a behavior rather than an intention. For this reason, other terms have been suggested, such as *multiple comparison problem*.
+The term *hacking* suggests a motivation to achieve a certain goal, but p-hacking is a behavior rather than an intention. For this reason, other terms have been suggested, such as *garden of forking paths* or *multiple comparison problem* which is a more older term.
 
-@stefan_big_2022 has compiled a list of 12 different p-hacking strategies.
+@stefan_big_2022 compiled a list of 12 different p-hacking strategies:
+
+1. Selective reporting of the dependent variable
+2. Selective reporting of the independent variable
+3. Optional stopping
+4. Outlier exclusion
+5. Controlling for covariates
+6. Scale redefinition
+7. Variable transformation
+8. Discretizing variables
+9. Exploiting alternative hypothesis tests
+10. Favorable imputation
+11. Subgroup analyses
+12. Incorrect rounding
+
+Each of these strategies are described next.
 
 ### Selective reporting of the dependent variable
 
@@ -80,20 +97,19 @@ Selective reporting of the dependent variable occurs when you try out different 
 
 ### Optional stopping
 
-Optional stopping occurs when the data is repeatedly analyzed during the data collection, and the data collection is stopped once the results reaches desirable criteria (such as statistical significance).
+Optional stopping occurs when the data is repeatedly analyzed during the data collection, and the data collection is stopped once the results reaches statistical significance.
 
-However, some variants of optional stopping is appropriate when the false positive rate is controlled [@lakens_performing_2014].
+Some variants of optional stopping is appropriate when the false-positive rate is controlled [@lakens_performing_2014]. 
 
 Optional stopping is also known as *data snooping* or *data peeking*.
 
-::: {.rmdnote}
+::: {.rmdtip}
 Remedies: [preregistration](#preregistration), [registered report](#registered-report)
 :::
 
 ### Outlier exclusion
 
-Outlier exclusion is the practice of removing data points that differs from other data points in some way.
-
+Outlier exclusion is the practice of removing observations that differs from other observations in some way.
 
 ```{r, include=knitr::is_html_output(), results="asis"}
 include_video("videos/the-dropout-outliers.mp4", caption="The scientists are pressured to remove outliers. From the tv-series The Dropout (2022).")
@@ -115,16 +131,71 @@ include_video("videos/the-dropout-outliers.mp4", caption="The scientists are pre
 
 ### Incorrect rounding
 
-Incorrect rounding refers to rounding p-values so that they pass below the threshold of 0.05 (or similar).
+Incorrect rounding refers to rounding p-values so that they pass below the threshold of p < 0.05 (or similar).
 
-Rewards such as funding and publication are often tied to significant results. A p-value of 0.049 and a p-value of 0.051 can therefore become the difference between success and failure, even though there is virtually no difference between them from a statistical point of view [@rosnow_statistical_1989]. Rounding the p-value downwards consequently provides a significant benefit for a researcher.
+Rewards such as funding and publication are often tied to significant results. A p-value of 0.049 and a p-value of 0.051 can therefore become the difference between success and failure, even though there is no difference between them from a statistical point of view [@rosnow_statistical_1989]. Rounding the p-value downwards consequently provides a benefit for the researcher. 
 
 The prevalence of incorrect rounding has been studied in psychology [@nuijten_prevalence_2016] and communication [@matthes_questionable_2015] and appears to be prevalent.
 
-## Combining different practices
+## Citation bias
 
-Combinining different questionable research practices allows a researcher to maximize the changes of finding a particular result.
+Citation bias occurs when an author cites research that preferentially supports a particular claim.
 
-For instance, simulations suggests that combining p-hacking practices provide more opportunities to find statistically significant results [@stefan_big_2022; @simmons_false-positive_2011].
+Positive findings are usually cited rather than null findings. In medicine, for instance, it is not unusual that studies that show that a treatment works are cited much more than similar studies that does not find any support for the the treatment. Similarly, a failed replication of a study is typically cited less than the original study [@schafmeister_effect_2021], and retracted articles are still cited after they have been removed from the scientific record [@bolland_citation_2021]. 
+
+This "seriously distorts readers’ perceptions of what the best available evidence tells them" [@gotzsche_citation_2022, 34], and can give the misleading impression that a particular treatment works or that a theory is still going strong. For instance, a review of the citations regarding a protein related to Alzheimer’s disease found "citation bias against papers that refuted or weakened the belief" [@greenberg_how_2009, 1].
+
+Unequal work can also be treated as if they were equal by citing disproportionally. One medicine could have substantial support for its efficacy whereas another medicine have minimal support, and yet the same amount of citations can be provided for both medicines to imply that the strength of evidence is equal.
+
+::: {.rmdtip}
+Remedies: [adversarial collaboration](#adversarial-collaboration), [preregistration](#preregistration)
+:::
+
+## Selective rigor
+
+Selective rigor refers to disproportionally scrutinizing one type of findings or claims, but not those that may reach a different conclusion. In other words, different standards are applied when evaluating similar research and one type of findings or claims receive less scrutiny or may be accepted as-is.
+
+Just as researchers can try to primarily [confirm theories](#confirmation-bias) rather than test them, selective rigor works in the opposite direction: it is a *disconfirmation* bias where researchers try to disconfirm theories, claims, or findings. For this reason, this practice primarily occurs when reading a published or soon-to-be-published article (e.g., during peer review, when writing literature reviews, or after the article is published).
+
+Selective rigor is different from personal interest (which is naturally selective). A researcher could devote all available time and try to only disconfirm theories. This would not constitute selective rigor because the researcher is not applying different standards to similar research.^[If an entire discipline is devoted to disconfirming only some theories, but not similar others, then it would constitute selective rigor at an institutional level. However, a more difficult question is what constitutes *similar* in respect to research in different disciplines.]
+
+::: {.rmdtip}
+Remedies: [adversarial collaboration](#adversarial-collaboration)
+:::
+
+## Circular reasoning
+
+## Questionable defintions
+
+A definition is a statement of the meaning of a term. Defintions are often crucial in order to understand the object of research. The point of a definition is to exclude, and sometimes a definition can exclude too much or too little compared to what is warranted by the purpose or situation. 
+
+For instance, if one wants to know why certain people are better at playing chess, then it would be questionable to exclude from the definition the chess players that excel at the highest level of chess. A research finding like "everyone is just as good at chess" would then become questionable because the definition clearly violates the purpose.
+
+Definitions can be questionable in many ways, but we can generally talk about two types of questionable defintions:
+
+- **Too narrow definition**. A definition can become too narrow if it exclude observations that should be part of the definition.^[A narrow definition will typically be more detailed by describing what should constitute an observation. In philosophy of language, we often talk about the intension and extension of the definition. *Intension* is equivalent to the definition itself, whereas the *extension* is the observations the definition applies to. A large intension will result in a narrow extension, and vice versa.]
+- **Too broad definition**. A definition can also become too broad if it include observations that should *not* be part of the definition.
+
+Note that the limit of the definition (whether it is too narrow or too broad) must be in comparison to a specific purpose. In other words, there are no intrinsically right or wrong limits of a definition. We can use whatever definition we like, and we can invent new definitions or discard old one's as we please. But if we deviate from the stated purpose we certainly have a questionable definition. The real problem that occur in practice, however, is likely more about that the purpose may not be stated upfront at all, but instead left implied or is so vague that it evades precision.
+
+A good definition, in contrast, should be clear, neutral, and unambigious. Such definitions can be difficult to come up with from the start, and you should not forget that a good definition can be the *outcome* of research rather than the starting point.
+
+## Ad hominem arguments {#ad-hominem}
+
+Ad hominem arguments are arguments that are directed towards the person, rather than directed towards the particular claim that the person is expressing.^[Arguments that are directed towards the issue are sometimes called *argumentum ad rem*.] It becomes a fallacy when the argument is used inappropriately to discredit the claim by discrediting the person.
+
+For instance, ad hominem arguments can become a fallacy when used to discredit legitimite criticism. For instance, it's surprisingly common for senior researchers to respond to criticism by discrediting their opponents for having too few publications or that their h-index is too low (a high h-index means that the researcher has many publications and citations). This is an ad hominem fallacy because the number of publications does not tell you anything about whether a claim is true. If that were the case, we could simply stop funding all research questions and instead just ask the most published researcher all questions.
+
+A common misonception is that asserting that someone is bad or wrong is an ad hominem argument. However, an important qualifier is that the ad hominem argument must be a *response* to an argument that has been put forward. Simply calling someone an idiot does not qualify as an ad hominem argument and is consequently not a fallacy. Name-calling is not an argument.
+
+Some ad hominem arguments are not only permissible, but may even be encouraged. For instance, a researcher who is lying, fabricating data or repeatedly uses questionable research practices could be met with an ad hominem argument: "Why should we trust this claim from you when you fabricated data so many times before?"
+
+## Combining questionable research practices {#combining-qrps}
+
+Combinining different questionable research practices allows a researcher to maximize the chances of finding a particular result. For example, simulations suggests that combining p-hacking practices provide more opportunities to find statistically significant results [@stefan_big_2022; @simmons_false-positive_2011].
+
+Journal editors can also join forces when they demand positive findings, which researchers then make sure to supply in order to fulfill that demand. In other words, [publication bias](#publication-bias) is combined with different [p-hacking](#p-hacking) strategies. This combination will make it very unlikely that the findings will reflect reality.
 
 ## Summary {#catalogue-summary}
+
+We have seen many questionable research practices (QRPs) here. An important commonality between them is the *selectiveness*. That is, they are about including or excluding some things at the expense of others. This makes it possible to reach a particular conclusion and still give the impression that the conclusion is informed by evidence. The selectiveness can become very misleading.

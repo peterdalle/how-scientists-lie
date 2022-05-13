@@ -1,0 +1,7 @@
+# References {-}
+
+<div id="refs"></div>
+
+::: {.rmdnote}
+Did you look for your own work but didn't find it? [Then tell me](#acknowledgments)! Self-promotion is encouraged.
+:::

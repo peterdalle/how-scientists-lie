@@ -1,6 +1,8 @@
-# Resources and tools {#resources}
+# (APPENDIX) Appendix {-}
 
-Resources and tools to help you make better research.
+# Resources and tools {- #resources}
+
+Free resources and free tools to help you make better research.
 
 Resource | Description
 ----------- | ----------------------------
@@ -13,6 +15,12 @@ Resource | Description
 [Registered reports](https://www.cos.io/initiatives/registered-reports) | Find journals that offers [registered reports](#registered-report): peer review before results are known
 [Top Factor](https://www.topfactor.org/) | Find journals that value good research
 [Glossary](https://forrt.org/glossary/) | Glossary of terms relating to open scholarship
+[The Open Science Training Handbook](https://open-science-training-handbook.gitbook.io/book/) | A book about how to spread open science principles
+[PubPeer](https://pubpeer.com/) | Online platform for post-publication peer review
+
+## Open textbooks
+
+- [Improving Your Statistical Inferences](https://lakens.github.io/statistical_inferences/) By Daniël Lakens 
 
 ## Networks in different countries
 
