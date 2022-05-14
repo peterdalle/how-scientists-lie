@@ -23,6 +23,8 @@ favicon-image: images/favicon-196.png
 twitter-handle: peterdalle
 url: https://howscientistslie.com/
 description: "A book about questionable research practices (QRPs) and its remedies. A guide to misleading science and research and how we can improve it."
+include-before: |
+    <div class="alert alert-warning alert-dismissible fade show" role="alert"><strong>Work-in-progress</strong> This book is not finished yet. Beware of typos. <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button></div>
 ---
 
 # How Scientists Lie {- #intro}
