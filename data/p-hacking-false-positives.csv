@@ -1,0 +1,195 @@
+"id","practice","false_positive_rate"
+1,"Selective reporting DV",0.11
+2,"Selective reporting DV",0.1
+3,"Selective reporting DV",0.1
+4,"Selective reporting DV",0.12
+5,"Selective reporting DV",0.13
+6,"Selective reporting DV",0.1
+7,"Selective reporting DV",0.13
+8,"Selective reporting DV",0.13
+9,"Selective reporting DV",0.14
+10,"Selective reporting DV",0.15
+11,"Selective reporting DV",0.15
+12,"Selective reporting DV",0.16
+13,"Selective reporting DV",0.17
+14,"Selective reporting DV",0.17
+15,"Selective reporting DV",0.18
+16,"Selective reporting DV",0.21
+17,"Selective reporting DV",0.21
+18,"Selective reporting DV",0.21
+19,"Selective reporting DV",0.22
+20,"Selective reporting DV",0.22
+21,"Selective reporting DV",0.22
+22,"Selective reporting DV",0.24
+23,"Selective reporting DV",0.35
+24,"Selective reporting DV",0.35
+25,"Selective reporting DV",0.36
+26,"Selective reporting DV",0.4
+27,"Selective reporting DV",0.4
+28,"Selective reporting DV",0.41
+29,"Selective reporting DV",0.41
+30,"Selective reporting IV",0.08
+31,"Selective reporting IV",0.08
+32,"Selective reporting IV",0.09
+33,"Selective reporting IV",0.09
+34,"Selective reporting IV",0.1
+35,"Selective reporting IV",0.1
+36,"Selective reporting IV",0.1
+37,"Selective reporting IV",0.11
+38,"Selective reporting IV",0.11
+39,"Selective reporting IV",0.12
+40,"Selective reporting IV",0.12
+41,"Selective reporting IV",0.13
+42,"Selective reporting IV",0.13
+43,"Selective reporting IV",0.13
+44,"Selective reporting IV",0.14
+45,"Selective reporting IV",0.16
+46,"Selective reporting IV",0.16
+47,"Selective reporting IV",0.16
+48,"Selective reporting IV",0.17
+49,"Selective reporting IV",0.19
+50,"Selective reporting IV",0.2
+51,"Selective reporting IV",0.22
+52,"Selective reporting IV",0.23
+53,"Selective reporting IV",0.24
+54,"Selective reporting IV",0.24
+55,"Selective reporting IV",0.27
+56,"Selective reporting IV",0.28
+57,"Selective reporting IV",0.29
+58,"Optional stopping",0.09
+59,"Optional stopping",0.1
+60,"Optional stopping",0.1
+61,"Optional stopping",0.12
+62,"Optional stopping",0.15
+63,"Optional stopping",0.16
+64,"Optional stopping",0.17
+65,"Optional stopping",0.18
+66,"Optional stopping",0.22
+67,"Optional stopping",0.23
+68,"Optional stopping",0.26
+69,"Optional stopping",0.27
+70,"Optional stopping",0.29
+71,"Optional stopping",0.32
+72,"Optional stopping",0.32
+73,"Optional stopping",0.43
+74,"Outlier exclusion",0.11
+75,"Outlier exclusion",0.12
+76,"Outlier exclusion",0.15
+77,"Outlier exclusion",0.17
+78,"Outlier exclusion",0.19
+79,"Outlier exclusion",0.2
+80,"Outlier exclusion",0.22
+81,"Outlier exclusion",0.25
+82,"Outlier exclusion",0.25
+83,"Outlier exclusion",0.26
+84,"Outlier exclusion",0.27
+85,"Controlling covariates",0.04
+86,"Controlling covariates",0.05
+87,"Controlling covariates",0.05
+88,"Controlling covariates",0.06
+89,"Controlling covariates",0.06
+90,"Controlling covariates",0.06
+91,"Controlling covariates",0.07
+92,"Controlling covariates",0.07
+93,"Controlling covariates",0.07
+94,"Controlling covariates",0.07
+95,"Controlling covariates",0.08
+96,"Controlling covariates",0.08
+97,"Controlling covariates",0.09
+98,"Controlling covariates",0.09
+99,"Controlling covariates",0.09
+100,"Controlling covariates",0.09
+101,"Controlling covariates",0.1
+102,"Controlling covariates",0.1
+103,"Controlling covariates",0.1
+104,"Controlling covariates",0.11
+105,"Controlling covariates",0.12
+106,"Controlling covariates",0.13
+107,"Controlling covariates",0.13
+108,"Controlling covariates",0.14
+109,"Controlling covariates",0.14
+110,"Controlling covariates",0.24
+111,"Controlling covariates",0.24
+112,"Controlling covariates",0.25
+113,"Scale redefinition",0.07
+114,"Scale redefinition",0.08
+115,"Scale redefinition",0.08
+116,"Scale redefinition",0.08
+117,"Scale redefinition",0.09
+118,"Scale redefinition",0.09
+119,"Scale redefinition",0.09
+120,"Scale redefinition",0.1
+121,"Scale redefinition",0.1
+122,"Scale redefinition",0.11
+123,"Scale redefinition",0.11
+124,"Scale redefinition",0.11
+125,"Scale redefinition",0.12
+126,"Scale redefinition",0.12
+127,"Scale redefinition",0.12
+128,"Scale redefinition",0.13
+129,"Scale redefinition",0.13
+130,"Scale redefinition",0.14
+131,"Scale redefinition",0.14
+132,"Scale redefinition",0.16
+133,"Scale redefinition",0.16
+134,"Scale redefinition",0.18
+135,"Scale redefinition",0.18
+136,"Scale redefinition",0.19
+137,"Scale redefinition",0.19
+138,"Scale redefinition",0.19
+139,"Scale redefinition",0.19
+140,"Scale redefinition",0.2
+141,"Scale redefinition",0.3
+142,"Scale redefinition",0.31
+143,"Scale redefinition",0.31
+144,"Scale redefinition",0.32
+145,"Variable transformation",0.28
+146,"Variable transformation",0.29
+147,"Variable transformation",0.3
+148,"Variable transformation",0.32
+149,"Variable transformation",0.32
+150,"Variable transformation",0.34
+151,"Variable transformation",0.34
+152,"Variable transformation",0.35
+153,"Variable transformation",0.35
+154,"Variable transformation",0.35
+155,"Variable transformation",0.36
+156,"Variable transformation",0.37
+157,"Discretizing variables",0.11
+158,"Discretizing variables",0.12
+159,"Discretizing variables",0.12
+160,"Alt. hypothesis tests",0.07
+161,"Alt. hypothesis tests",0.07
+162,"Favorable imputation",0.08
+163,"Favorable imputation",0.08
+164,"Favorable imputation",0.09
+165,"Favorable imputation",0.1
+166,"Favorable imputation",0.1
+167,"Favorable imputation",0.1
+168,"Favorable imputation",0.11
+169,"Favorable imputation",0.13
+170,"Favorable imputation",0.14
+171,"Favorable imputation",0.18
+172,"Favorable imputation",0.24
+173,"Favorable imputation",0.25
+174,"Favorable imputation",0.27
+175,"Favorable imputation",0.27
+176,"Favorable imputation",0.29
+177,"Favorable imputation",0.31
+178,"Favorable imputation",0.31
+179,"Favorable imputation",0.39
+180,"Favorable imputation",0.4
+181,"Favorable imputation",0.41
+182,"Favorable imputation",0.42
+183,"Subgroup analyses",0.12
+184,"Subgroup analyses",0.12
+185,"Subgroup analyses",0.13
+186,"Subgroup analyses",0.13
+187,"Subgroup analyses",0.22
+188,"Subgroup analyses",0.23
+189,"Subgroup analyses",0.28
+190,"Subgroup analyses",0.29
+191,"Subgroup analyses",0.29
+192,"Subgroup analyses",0.3
+193,"Incorrect rounding",0.05
+194,"Incorrect rounding",0.06
