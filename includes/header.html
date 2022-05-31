@@ -1,3 +1,14 @@
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X40R7C39D5"></script>
 <script>
-  // GA
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-X40R7C39D5');
+</script>
+
+<script>
+  $(document).ready(function() {
+    var workInProgressAlert = '<div class="alert alert-warning alert-dismissible fade show" role="alert"><strong>Work-in-progress</strong>. This book is not finished yet. <a href="preface.html#acknowledgments">You can contribute!</a> <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button></div>';
+    $("#above-content-placeholder").append(workInProgressAlert);
+  });
 </script>
