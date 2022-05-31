@@ -21,46 +21,42 @@ pre code {
   white-space: inherit;
 }
 .rmdnote, .rmdtip, .rmdwarning {
-  padding: 1em 1em 1em 4em;
-  margin: 30px 0;
-  background: #f5f5f5 5px center/3em no-repeat;
-}
-.rmdnote {
+  min-height: 110px;
   padding: 20px 30px 30px 100px;
+  margin: 30px 0;
   background: #effaff;
   border: 1px solid #e6f7ff;
   border-radius: 6px;
 }
-.rmdnote:before {
-  position: absolute;
-  left: 41px;
-  display: inline-block;
-  content: "\f05a";
-  font-family: 'Font Awesome 5 Pro';
-  font-weight: 900;
-  font-size: 300%;
-  line-height: 60px;
-  color: #5a78862e;
-}
-.rmdnote blockquote {
-  border-color: #5a78862e;
-}
 .rmdtip {
-  border-color: #e8e8e8;
+  background: #f4efff;
+  border-color: #e8e6ff;
 }
 .rmdwarning {
   border-color: #5a78862e;
 }
-.rmdwarning:before {
+.rmdnote:before, .rmdtip:before {
   position: absolute;
-  left: 50px;
+  left: 41px;
   display: inline-block;
-  content: "\f071";
   font-family: 'Font Awesome 5 Pro';
   font-weight: 900;
   font-size: 300%;
   line-height: 60px;
   color: #5a78862e;
+}
+.rmdnote:before{
+  content: "\f05a";
+}
+.rmdtip:before {
+  content: "\f0eb";
+  color: #785a862e;
+}
+.rmdwarning:before {
+  content: "\f071";
+}
+.rmdnote blockquote {
+  border-color: #5a78862e;
 }
 .video {
   border-bottom: 2px solid #eee;
@@ -115,7 +111,7 @@ pre code {
   padding-left: 10px;
 }
 #toc {
-  margin-top: 50px;
+  margin-top: 15px;
   padding: 10px;
   background: #eef6fa;
   border-radius: 6px;
@@ -154,4 +150,14 @@ nav[data-toggle="toc"] .nav a.nav-link.active .header-section-number, nav[data-t
   font-family: 'Font Awesome 5 Pro';
   position: absolute;
   left: 17px;
+}
+h3.card-title {
+  margin: 0
+}
+#citations-tablist li, #citations-tablist li.nav-item {
+  margin: 0;
+  padding: 0;
+}
+#citations-content .tab-pane {
+  padding-top: 10px;
 }
