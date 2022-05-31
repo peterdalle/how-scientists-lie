@@ -1,0 +1,7 @@
+# How to respond to reviewers asking for questionable research practices {- #reviewer-responses}
+
+This guide helps craft an appropriate response to suggestions to use questionable research practices by reviewers. It might be tempting to comply with the reviewer in order to get the manuscript published, but the consequence can also be that the literature becomes polluted with garbage.
+
+When a reviewer says... | ...you can respond with:
+------------------------ | -----------------------------------
+"You should remove unconfirmed hypotheses" | The point of an hypothesis-test is to *test* the hypotheses, not confirm it. Removing unconfirmed hypotheses therefore violates the principle of independence, increases false positives and enforces circular reasoning as a research practice since theories can only be confirmed.
