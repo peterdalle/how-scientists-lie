@@ -4,23 +4,25 @@
 
 Free resources and free tools to help you make better research.
 
-Resource | Description
------------ | ----------------------------
-[FORRT](https://forrt.org/) | Framework for Open and Reproducible Research Training that aimes to integrate open and reproducible science into higher education
-[Social Science Prediction Platform](https://socialscienceprediction.org) | Help predict research results
-[OSF projects](https://osf.io/) | Upload your research data to Open Science Framework (OSF) for long-term storage
-[Zenodo](https://zenodo.org/) | Upload your research data to Zenodo for long-term storage
-[OSF preprints](https://osf.io/preprints) | Publish preprints of your papers before you send them to journals
-[OSF preregistration](https://osf.io/prereg) | Preregister your study at Open Science Framework (OSF)
-[Registered reports](https://www.cos.io/initiatives/registered-reports) | Find journals that offers [registered reports](#registered-report): peer review before results are known
-[Top Factor](https://www.topfactor.org/) | Find journals that value good research
-[Glossary](https://forrt.org/glossary/) | Glossary of terms relating to open scholarship
-[The Open Science Training Handbook](https://open-science-training-handbook.gitbook.io/book/) | A book about how to spread open science principles
-[PubPeer](https://pubpeer.com/) | Online platform for post-publication peer review
+<!--
+How to create a screenshot:
+1. Use https://www.site-shot.com/ and save as 512 x 512 pixels (40% size)
+2. Convert image to webp format
+-->
+
+```{r resources-tools, results="asis"}
+resources <- read.csv("data/resources.csv")
+print_resource_links(resources)
+```
 
 ## Open textbooks
 
-- [Improving Your Statistical Inferences](https://lakens.github.io/statistical_inferences/) By Daniël Lakens 
+```{r resources-textbooks, results="asis"}
+resource_link(title = "Improving Your Statistical Inferences",
+              image = "images/resources/lakens-statistical-inferences.webp",
+              url = "https://lakens.github.io/statistical_inferences/",
+              description = "Online book by Daniël Lakens")
+```
 
 ## Networks in different countries
 

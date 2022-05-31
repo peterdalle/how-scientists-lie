@@ -1,9 +1,9 @@
 # HTML website
 bookdown::bs4_book:
   default: yes
-  css: css/style.css
+  css: includes/style.css
   footnotes_inline: true
-  template: _includes/bs4_book.html
+  template: includes/bs4_book.html
   theme:
     primary: "#5b7886"
     danger:  "#dc3545"
@@ -14,13 +14,13 @@ bookdown::bs4_book:
     base: https://github.com/peterdalle/how-scientists-lie
     branch: main
   includes:
-    in_header: _includes/header.html
+    in_header: includes/header.html
   pandoc_args: --top-level-division=chapter
 
 # PDF book
 bookdown::tufte_book2:
   includes:
-    in_header: _includes/preamble.tex
+    in_header: includes/preamble.tex
   latex_engine: xelatex
   #citation_package: natbib
   keep_tex: yes

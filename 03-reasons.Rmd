@@ -1,7 +1,12 @@
+# (PART) Reasons and remedies {-}
+
 # Why questionable research practices occur {#reasons}
 
-Why do questionable research practices (QRPs) occur? The goal here is to offer as many explanations as possible, and not prematurely decide on which one is the most common and reject alternative ideas. That is because people are different, they work in different countries, and they organize themselves within different research cultures. That means that some of these explanations may be very uncommon, generally speaking, but still the most important explanations in a particular research environment. The explanations range from the individual to the institutional reward systems.
+Why do questionable research practices (QRPs) occur? The goal here is to offer as many explanations as possible, and not prematurely decide on which one is the most common and reject alternatives. Because people are different, they work in different countries, and they organize themselves within different research cultures. That means that some of these explanations may be very uncommon, generally speaking, but still the most important explanations in a particular research environment or situation. The explanations range from the individual, to groups and the institutional reward system. 
 
+Today, many researchers at universities are required to bring in their own salary through external grants in competition with other researchers. It's a question of constant job survival, and questionable research practices provide an effective way to continue surviving. Michael J. Mahoney, a psychologist who studied scientists, argued that science is not a game where you play to win---rather, you play in order to be part of the game itself [@mahoney_scientist_1976, 10-11].
+
+<!--
 ## Six types of people
 
 @kornfeld_perspective_2012 reviewed 146 individual narratives contained in reports of individuals found guilty of misconduct by the U.S. Office of Research Integrity during 1992–2003. He categorized the people as follows:
@@ -13,21 +18,22 @@ Why do questionable research practices (QRPs) occur? The goal here is to offer a
 > - The sociopath, who was totally absent a conscience (and, fortunately, was rare),
 > - The nonprofessional support staff, who were unconstrained by the ethics of science, unaware of the scientific consequences of their actions, and/or tempted by financial rewards.   
 > [@kornfeld_perspective_2012, 879]
+-->
 
 ## Bias toward positive results {#positive-bias}
 
 A bias toward positive results or findings means that results that show that something is happening is favored in front of research that shows that nothing is happening. 
 
-For example, a study on a cancer treatment is likely to be published as long as it can show that the cancer decreases, or that the treatment increases the cancer. However, if the study shows that nothing is happening it is likely deemed "uninteresting" by a scientific journal and not published at all, leading to a [publication bias](#publication-bias).
+For example, a study on a cancer treatment is likely to be published as long as it can show that the cancer decreases, or that the treatment increases the cancer. However, if the study shows that nothing is happening it is likely deemed "uninteresting" by a scientific journal and not published at all ([publication bias](#publication-bias)).
 
-Both researchers and journal editors can have a bias towards positive results when they select articles for publication. But researchers can also display this bias when they [p-hack](#p-hacking), in such a way that they repeatedly redo an analysis with variation until it results in a positive result.
+Both researchers and journal editors can have a bias towards positive results when they select articles for publication. But researchers can also display this bias when they [p-hack](#p-hacking), in such a way that they repeatedly redo an analysis with variation until it results in a result that is considered publishable.
 
 ::: {.rmdnote}
 The term "positive" is confusing and can mean at least three things:
 
-1. Positive can mean that something is happening. Conversely, a negative result means that nothing is happening (this is also called a null finding). For example, a cancer treatment that increases or decreases the cancer is thus positive. This is what is meant here with regards to a bias towards positive results. 
-2. Positive can refer to the direction of an effect. The cancer treatment may accidentally increase the cancer (positive direction or plus) or decrease the cancer (negative direction or minus). 
-3. Positive can also refer to an evaluation. A positive finding is thus good and desireable, whereas a negative finding is bad and undesirable. A cancer treatment that cures cancer is positive, but negative if it the cancer gets worse because of the treatment.
+1. Positive can mean that *something is happening*. Conversely, a negative result (null finding) means that nothing is happening. For example, a cancer treatment that increases or decreases the cancer is positive, and negative if it does nothing.
+2. Positive can refer to the *direction of an effect*. The cancer treatment may increase the cancer (positive direction or plus) or decrease the cancer (negative direction or minus). 
+3. Positive can also refer to an *evaluation*. A positive finding is good and desireable, whereas a negative finding is bad and undesirable. A treatment that cures cancer is positive, but negative if it worsens it.
 :::
 
 ## Peer recognition
@@ -42,13 +48,31 @@ Being recognized by colleagues is an important motivation for scientists [@mahon
 
 ## Heuristics
 
-Heuristics are shortcuts we humans can use in order to make fast decisions. Oftentimes they help us to a reasonable conclusion but they may also lead us astray into territories that are misleading or false. 
+Heuristics are shortcuts we humans can use in order to make fast decisions and evaluations. Oftentimes they help us to a reasonable conclusion [@gigerenzer_simple_2001], but they may also lead us astray into territories that are misleading or false. 
+
+```{r, results='asis'}
+pull_quote("Just as students can learn how to write for the test, to satisfy their teacher, researchers can learn how to write articles to satisfy the reviewers.")
+```
 
 In research, we can identify several heuristics in relation to questionable research practices:
 
-- **Laziness**. Good research requires extensive documentation and rigour, which requires a lot of effort. And yet, the end result may turn out to be a disappointment and render a lot of work "uninteresting" for journals. Being lazy is consequently an option that makes a lot of these problems go away. No documentation, no rigor and little effort can be still be enough as long as you give the appearance of good research. This makes it possible to reap the benefits as someone who did all the hard work, especially when there are low standards for reporting results or documenting data (or worse, no standards at all).
-- **Popularity**. The fact that something is popular, famous or heavily hyped can sometimes be enough to make it acceptable and even desirable. If all researchers are using a particular method or approach, then you would be foolish not to use it yourself, wouldn't you? Similarly, it's easy to justify the use of questionable research practices if everyone else is using them.
-- **Authority**. If a respected professor use questionable research practices, then it can't really be wrong, can it? However, it can be easy to get the causality backwards: The professor might be an authority on a particular theory, but the fact that the authority used questionable resarch practices to get there can give the impression that these practices are indeed appropriate. In reality, the respected professor reached authority *despite* using questionable research practices.
+- **Laziness**. Good research requires extensive documentation and rigour, which requires a lot of effort. And yet, the end result may turn out to be a disappointment and render a lot of work "uninteresting" for journals. Furthermore, all that hard work are never reflected in a journal article, which is basically marketing for the research rather than research itself. Being lazy is consequently an option that makes a lot of these problems go away. No documentation, no rigor and only providing the marketing material requires little effort and can still give the impression of science. This makes it possible to reap the benefits as someone who did all the hard work, especially when there are low standards for reporting results or documenting data (or worse, no standards at all). Just as students can learn how to write for the test, to satisfy their teacher, researchers can learn how to write articles to satisfy the reviewers. However, in none of these two situations are any real learning going on. Instead, it's the path of least resistance---laziness---that determines the end result.
+- **Popularity**. The fact that something is popular, famous or heavily hyped can sometimes be enough to make it acceptable and even desirable. If all researchers are using a particular method or approach, then you would be foolish not to use it yourself, wouldn't you? Similarly, it's easy to justify the use of questionable research practices if everyone else is using them. Popularity can easily slip into a sort of inadvertent acceptance, especially when claims remain unsubstantiated, yet common and ingrained in the research environment that anyone who question them risk looking like a fool.
+- **Authority**. If a respected professor use questionable research practices, then it can't really be wrong, can it? However, it can be easy to get the causality backwards: The professor might be an authority on a particular theory, but the fact that the professor used questionable resarch practices to get there can give the impression that these practices are indeed appropriate. In reality, the respected professor reached authority *despite* using questionable research practices. The authority heuristic can also apply when research is evaluated. Many who cite and praise a particular study can give readers the impression that it is in fact a praiseworthy study. However, it can also be the case that many of those citations are actually the consequence of an authority that cited and praised the study, and other researchers simply read the authority and then follow suit. Quite simply, researchers copy what the authority is doing. This is reasonble to some extent (and sometimes necessary) when the person in question *is* an actual authority. But in cases where the authority hasn't really paid attention and done the homework and evaluated the claims, it can steer other researchers far along the wrong path. Authority can also easily be misattributed to researchers who convey certainty, rather than researchers who emphasize uncertainty.
+
+Heuristics are likely to play a role in copycat behavior. For instace, researchers who are unsure about how to use a particular method have a dilemma. Should they read all books on the subject matter and decide which is the best method? Or should they simply look at what is published in the literature and do the same?
+
+It's not unreasonble to suggest that a researcher should copy the successful behavior of others. However, if those behaviors were successful because they used questionable research practices, the copying will likely do more harm than good. It's how [bad methods spread](#bad-methods).
+
+## Time
+
+## Rationalization
+
+Rationalization is the tendency to create reasons or justifications after something has happened. This can make it seem that ad hoc results were the outcome of rules or principles that the researcher followed.
+
+[HARKing](#harking) is a typical example where rationalization is likely to occur, since researchers may find an interesting result by chance, and then try to justify why they thought of the finding all along and write an hypothesis that "predict" the result from a theory that "explains" the result.^[Explaining something that has already happened is a form of *abduction*, rather than deduction or induction.]
+
+[Preregistration](#preregistration) and [registered reports](#registered-report) are effective remedies against rationalization.
 
 ## Being first
 
@@ -56,49 +80,92 @@ In research, we can identify several heuristics in relation to questionable rese
 
 ## Activism
 
-Activism can be an important cause for questionable research practices. For instance, a researcher can apply [selective rigor](#selective-rigor) to research which the researcher disagrees with, and have a low bar for acceptance for research that the researcher agrees with. 
+Activism can be an important cause for questionable research practices. More specifically, the activist researcher may be determined to provide evidence for a claim rather than to evaluate whether the claim is true. For instance, a researcher can apply [selective rigor](#selective-rigor) to research which the researcher disagrees with, and have a low bar for acceptance for research that the researcher agrees with. 
 
-For an activist researcher, the primary use of evidence is as a means to further a casue, and the evidence itself is treated as secondary. There are consequently *good evidence* (evidence that further the cause) and *bad evidence* (evidence that threaten the cause). The activist researcher seek to create good evidence around a narrative, and the evidence is carefully crafted and selected to advance and amplify the narrative. The bad evidence is instead thoroughly scrutinized for mistakes and invalid conclusions. 
+For an activist researcher, the primary use of evidence is as a means to further a casue (such as influencing a policy), and the evidence itself is treated as secondary. There are consequently *good evidence* (evidence that further the cause) and *bad evidence* (evidence that threaten the cause). The activist researcher seek to create good evidence around a narrative, and the evidence is carefully crafted and selected to advance and amplify the narrative. The bad evidence is instead thoroughly scrutinized. Questionable research practices provide an opportunity for the activist researcher to quickly reach the desired conclusion yet still rely on methods that looks "sciency." Put simply, it is selling an idea under the guise of research.
 
-This means that questionable research practices provide an opportunity for the activist researcher to reach the desired conclusion yet still rely on methods that looks convincing. Put simply, it is selling an idea under the guise of research.
+An activist researcher can be difficult to identify compared to a non-activist researcher. However, the speed to action might be an important parameter. The activist researcher may want to translate the research into policy as quickly as possible, rather than thoroughly checking the results for errors.
 
-*Motivated reasoning* is one theory that may be particularly relevent here. In this context, the theory would state that an individual can have two motivations: a *goal-directed motivation* where the researchers tries to reach a particular conclusion, or a *accuracy-directed motivation* where the researcher is trying to reach an accurate conclusion. An activist researcher would consequently have a goal-directed motivation and would be expected to stop the inquiry and report the results once the desired goal is achieved, and continue looking for evidence until the goal is achieved. This maximizes the chances of finding evidence in favor of the goal. Furthermore, when the activist researcher reviews evidence that disagrees with the goal, that evidence is discredited by looking for mistakes, invalid conclusions, overgeneralizations, and other problems. Another term for this behavior is *motivated skepticism*.
+*Motivated reasoning* is one theory that may be particularly relevent here [@kunda_case_1990]. In this context, the theory would state that an individual can have two motivations: a *goal-directed motivation* where the researchers tries to reach a particular conclusion, or a *accuracy-directed motivation* where the researcher is trying to reach an accurate conclusion. An activist researcher would consequently have a goal-directed motivation and would be expected to stop the inquiry and report the results once the desired goal is achieved, and continue looking for evidence until the goal is achieved. This maximizes the chances of finding evidence in favor of the goal. Furthermore, when the activist researcher reviews evidence that disagrees with the goal, that evidence is discredited by looking for mistakes, invalid conclusions, overgeneralizations, and other problems. Another term for this behavior is *motivated skepticism* [@taber_motivated_2006].
 
 In contrast, a non-activist researcher with a accuracy-directed motivation would be expected to continue to scrutinize the findings regardless of what direction the conclusion points. A non-acticist researcher may also try to get awareness of own biases and then try to minimize those biases. This type of self-awareness would not be of any use for the activist researcher.
 
+The discussion here is primarily related to academic researchers at universities that are expected to work in the public interest. However, think tanks and similar organizations is one area where explicit activist researchers are likely to be found since they are not necessarily working in the public interest.
+
 Possible remedies are probably found on an [institutional level](#institution-stage) since there is no interest from the activist researcher to refrain from using questionable research practices. Mandatory [preregistrations](#preregistration) and [registered reports](#registered-report) for theory-driven or hypothesis-driven research could also make any questionable research practices transparent for others so that the research is at least recognized as activism. Another possible remedy is [adversarial collaboration](#adversarial-collaboration), although it could be difficult since the activist researcher may be reluctant to conduct research that could result in unfavorable conclusions.
 
-The discussion here is primarily related to academic researchers at universities as well as drug companies that are expected to work in the public interest. However, think tanks and similar organizations is one area where explicit activist researchers are likely to be found since they are not necessarily working in the public interest.
+## Strong prior beliefs 
+
+A researcher with strong prior beliefs can redo an analysis until the results start looking more reasonable, and what is reasonable is determined by their beliefs. 
+
+The researcher with strong prior beliefs may also be more likely to apply [selective rigor](#selective-rigor) to research the researcher disagrees with, and have a low bar for acceptance for research that the researcher agrees with. For a researcher who believes he or she has already found the right answer, any evidence to the contrary will have a harder time convincing.
+
+Sometimes this goes under the name of *belief bias*, that we accept an argument based on the believability of the conclusion. As the psychologist Thomas Gilovich pointed out, people may ask themselves different questions depending on whether they believe the conclusion:
+
+> For propositions we want to resist, however, we ask whether the evidence compels such a distasteful conclusion---a much more difficult standard to achieve. For desired conclusions, in other words, it is as if we ask ourselves, "Can I believe this?", but for unpalatable conclusions we ask, "Must I believe this?" The evidence required for affirmative answers to these two questions are enormously different. By framing the question in such ways, however, we can often believe what we prefer to believe, and satisfy ourselves that we have an objective basis for doing so. [@gilovich_how_1991, Chap. 5] 
+
+It's important to distinguish strong prior beliefs from [activism]. Activist researchers are devoted to defending a particular conclusion, but there is no logical necessity that they actually have to believe the conclusion they are defending (even though that's probably the case). More importantly, those who have strong prior beliefs do not automatically become activists. They can still be devoted to truth-seeking and figuring out whether a conclusion is true. They may just be exceptionally bad at actually doing it.
+
+Another important difference is that the activist researcher may ignore the evidence that has been refuted and never mention it again, and instead shift the focus toward some new evidence that supports their goal. A researcher with only strong prior beliefs, on the other hand, would accept the evidence as refuted (even though this process likely takes some time).
 
 ## False perceptions
 
-We may have a false perception about what our colleagues and other researchers do. For instance, we may believe that almost everyone else is [HARKing](#harking) (writing hypotheses after the results are known), and this could lead researchers to actually HARK, despite the fact that no researcher would like to do so.
+Researchers may have a false perception about what their colleagues and other researchers do. For instance, they may believe that almost everyone else is [HARKing](#harking)---writing hypotheses after the results are known---and this could lead researchers to actually HARK in order to stay competetive, despite the fact that no researcher would like to do so.
 
-In other words, researchers can engage in questionable research practices because they (1) believe that other researchers are okey with them or (2) believe that other researchers use them. In both cases, the researchers can justify the actions by stating what others are doing ("I'm just doing what everyone else is doing!").^[See also *preference falsification* [@kuran_private_1997].] 
+In other words, researchers can engage in questionable research practices because they believe that other researchers are doing it. This also gives researchers the ability to justify their actions by stating what others are doing: "I'm just doing what everyone else is doing!"^[See also *preference falsification* [@kuran_private_1997].]
 
-It is important to remember that researchers are also humans and humans can behave differently when they are part of a group. Put simply, researchers can also be victims of collective illusions, and believe (and act) as if most researchers have a particular belief or do a particular thing when in fact they do not. 
+Social norms describe what researchers are doing. Social norms can also be normative in the sense that they say what researchers *should* be doing [@yamin_using_2019]. However, descriptive social norms are often interpreted as normative, which means that researchers can infer what they should do based on what they believe other researchers are doing. This means that these false perceptions can be very influential in shaping the behaviors of researchers.
+
+It is important to remember that researchers are also humans and humans can behave differently when they are part of a group. Researchers can be victims of collective illusions, and believe (and act) as if most researchers have a particular belief, or do a act in a certain way when in fact they do not. 
 
 ```{r, results='asis'}
 pull_quote("When we work in a group we may be more inclined to be wrong together than right alone.")
 ```
 
-For instance, if a researcher believes that other researchers use questionable research practices, then it might seem less wrong to use them. Similarly, if a researcher believes that reviewers and editors will only accept certain findings, they may be more inclined to look for those particular findings and disregard everything else. They may have no evidence at all that their beliefs are true, but the fact that they have been successful acting on these beliefs means that they are more likely to sustain the belief over time. Put simply, they continue doing what worked in the past.
+Similarly, if a researcher believes that reviewers and editors will only accept certain findings, they may be more inclined to look for those particular findings and disregard everything else. They may have no evidence at all that their beliefs are true, but the fact that they have been successful acting on these beliefs in the past means that they are more likely to sustain the belief over time and pass it on to their students. Put simply, they continue doing what worked in the past---not because of evidence that supports their beliefs but because of a lack of counterfactual evidence that runs against their belief (note that this is a form of [confirmation bias](#confirmation-bias)).
 
-The important point here is that no researcher needs to actually agree with any of these beliefs, or even believe that what they are doing is right. It can be sufficient for them to believe that *other* researchers do it, or that *others* expect them to do it. This is one important reason why we cannot immediately jump from observations of what researchers do to a conclusion about what the researchers believe. It could also be that they are just humans who want to fit in. When we work in a group we may be more inclined to be wrong together than right alone.
+The important point here is that no researcher needs to actually agree with any of these beliefs, or even believe that what they are doing is right. It can be sufficient for them to believe that *other* researchers are doing it, or that *other* researchers expect them to do it. This is one important reason why we cannot immediately jump from observations of what researchers do to a conclusion about what the researchers believe. It could also be that they are just humans who want to fit in. When we work in a group we may be more inclined to be wrong together than right alone.
+
+## Homogeneity among researchers {#researcher-homogeneity}
+
+When a particular set of beliefs become entrenched in a research group, we can talk about a strong homogeneity among researchers.^[A similar concept is *homophily*, the tendency for people to associate and bond with similar people.]
+
+Researchers are humans, and humans work together in groups. When all researchers are very similar to each other, the beliefs within those groups are likely to become self-evident and seldom interrogated or questioned within the group. This means that these beliefs can accidentally slip into the research. If these beliefs happens to be wrong, it can lead to misleading findings.
+
+For example, an interview questionnaire were supposed to measure open-mindedned thinking accidentally tapped into religiosity as well, making religious people less open-minded [@stanovich_need_2019]. The problem was that the questionnaire was based on the faulty assumption that there is a generic tendency to change beliefs in light of new evidence. Decades later, however, the researchers found out that there is no such tendency. Instead, the tendency to change beliefs depends on the *specific* belief in question. As the different items in the questionnaire was written, the results became skewed and showed that religious people were less open-minded. The makers of the questionnaire later argued that "it appears that our own political/world-view conceptions leaked into these items in subtle ways" and the "lack of intellectual diversity in our own research team prevented us from seeing how charged the word 'belief' might be for a religious person" [@stanovich_need_2019, 163]. To put it blunt, the researchers were all thinking the same way and didn't reflect on the fact that the most central word in the questionnaire---*belief*---could be interpreted differently by the many billions of religious people in the world.
+
+The larger the homogeneity among researchers, the more difficult it will become for them to find the blind spots among themselves. Although homogeneity can occur in many ways (such as sex or sexuality), the primary way homogeneity is manifested in research and science is through words. That means that ideas, beliefs, attitudes, viewpoints, ideologies, and similar intellectual objects are the main vehicle for homogeneity. The important part is not that the share of viewpoints must be perfectly equal. The important part is that the minority should not be too small so that they can't find the blind spots at all.
+
+## Insularity
+
+Researchers can become insulated from influence from the outside world in the sense that their ideas are seldom tested against the outside world, but instead evaluated and validated within the circle of researchers. Negative feedback (that could undermine the idea) have little chance of reaching the researchers, since they've become insulated (physically or psychologically).
+
+This has the unfortunate consequence that an idea is no longer tested against reality in order to gain feeback of the feasability of the idea. Instead, the idea may be tested against other persons that gives validation or approval. In extreme cases, this is how conspiracy theories and pseudosciences emerge.
+
+All researchers and scientists are intellectuals in the sense that they deal with ideas: measurements, models, theories, concepts, constructs, arguments, claims, words, numbers, and so on.
+
+However, there are two main ways these ideas can be evaluated. 
+
+- *Internal criteria*, where an idea is tested *within* the circle where it originated. For a sociologist or economist, for example, the ideas are evaluated primarily by other sociologists or economists who raise counterarguments in journals (internal criteria). If no one can successfully shoot down the argument, the argument will basically remain standing.^[It's more likely that the argument is forgotten, but that's another story.] What constitutes a good idea is what other researchers consider a good idea. In other words, the ideas are evaluated and validated *inside* academia by other sociologists or economists. A witty argument that obfuscates language and mudders the water can consequently be very influential.
+- *External criteria*, where an idea is tested *outside* the circle where it originated. For engineers, for example, the construction of a bridge is ultimately evaluated against reality. It's the ultimate test whether the bridge can withstand the elements. The idea is evaluted and validated *outside* the circle of engineers, and they receive feedback trough reality on whether the bridge collapsed or not. It's difficult to argue that a collapsed bridge is in fact still standing.
+
+The point here is that relying on the internal criteria for evaluation can cut ideas off from feedback in the external world. The method for validation can easily become circular: it is within the circle of researchers that the validation takes place: researchers evaluate each other's ideas. If they're an [homogenous group](researcher-homogeneity), it can create a perfect breeding ground for [theory-confirmation](#confirmation-bias).
+
+An important remedy to insularity is [cross-discipline peer review].
 
 ## Incentive structure {#incentives}
 
-The incentive structure (or simply *the incentives* or sometimes just *the system*) refers to the formal rewards that exists and what the research institutions or the scientific community may give researchers in order to motivate them to do good research.^[This is different from *informal* rewards, such as receiving status from colleagues from being first with an idea, which may not be direclty rewarded by formal institutions.]
+The incentive structure (also called *incentive system* or *reward system*) refers to the formal rewards that the research institutions or the scientific community may give researchers in order to motivate them to do good research.^[This is different from *informal* rewards, such as receiving status from colleagues from being first with an idea, which may not be direclty rewarded by formal institutions.]
 
 These incentives can come in many forms, for example:
 
 - **Salary**. The more researchers publish, the more they earn. For instance, some departments at the Aarhus University in Denmark give 5,000 DKK (about 500 EUR or 700 USD) in extra salary for every article a researcher manages to publish in a reputable journal. The incentive to earn more money could therefore be an important reason for questionable research practices.
-- **Awards**. Awards provide recognition and are an important reward for status-seekers.
+- **Awards**. Awards, diplomas and certificates provide recognition and can be an important reward for status-seekers. It can also mean the difference between a job or unemployment, especially if the requirements of the job is high.
 
 Although the incentives may indeed incentivize researchers to engage in questionable research practices, @yarkoni_no_2018 noted that the incentives may also act as an excuse to continue using questionable resarch practices:
 
-> There’s a narrative I find kind of troubling, but that unfortunately seems to be growing more common in science. The core idea is that the mere existence of perverse incentives is a valid and sufficient reason to knowingly behave in an antisocial way, just as long as one first acknowledges the existence of those perverse incentives. The way this dynamic usually unfolds is that someone points out some fairly serious problem with the way many scientists behave—say, our collective propensity to p-hack as if it’s going out of style, or the fact that we insist on submitting our manuscripts to publishers that are actively trying to undermine our interests—and then someone else will say, “I know, right—but what are you going to do, those are the incentives.”
-> [...]
+> There’s a narrative I find kind of troubling, but that unfortunately seems to be growing more common in science. The core idea is that the mere existence of perverse incentives is a valid and sufficient reason to knowingly behave in an antisocial way, just as long as one first acknowledges the existence of those perverse incentives. The way this dynamic usually unfolds is that someone points out some fairly serious problem with the way many scientists behave—say, our collective propensity to p-hack as if it’s going out of style, or the fact that we insist on submitting our manuscripts to publishers that are actively trying to undermine our interests—and then someone else will say, “I know, right—but what are you going to do, those are the incentives.”   
+> [...]   
 > What I do object to quite strongly is the narrative that scientists are somehow helpless in the face of all these awful incentives—that we can’t possibly be expected to take any course of action that has any potential, however small, to impede our own career development. [@yarkoni_no_2018]
 
 On the opposite side of the incentives is the [research integrity offices](#integrity-office) that make sure that researchers receive appropriate punishment for malpractice.
@@ -107,26 +174,30 @@ On the opposite side of the incentives is the [research integrity offices](#inte
 
 ## Conflict of interest
 
+## Prestige
+
+> research from prestigious institutions spreads more quickly and completely than work of similar quality originating from less prestigious institutions [@morgan_prestige_2018, 1]
+
 ## Journals
 
 Journals and editors may have a high demand for novel, positive and surpsiring findings, and reviewers can be instructed to focus on these particular results. This means that journals are particular influential in forming the scientific record, especially if researchers are pressured by their institutions to publish in journals for their own career survival.
 
-Many countries and research institutions have predetermined lists of which journals are good and prestiguous and worth publishing in. The prestige is often measured by citations and the metric Impact Factor (IF). The Impact Factor and similar measures are not dervied from God, but from academic databases mostly run by private companies (and some of them also run many of the journals). This means that journals can inflate their own citation count (and prestige) by encouraging authors who submit a paper to the journal to also cite previous articles from the journal. Several journals have been temporarily banned from these databases (and therefore metrics) because they have tried to artificially inrease their citation counts by self-citing [@moussa_bibliometric_2022].
+Many countries and research institutions have predetermined lists of which journals are good and prestiguous and worth publishing in. The prestige is often measured by citations and the metric Impact Factor (IF). The Impact Factor and similar measures are not dervied from God, but from academic databases mostly run by private companies (and some of them also run many of the journals). This means that journals can inflate their own citation count (and prestige) by encouraging authors who submit a paper to the journal to also cite previous articles from the journal. Several journals have been temporarily banned from these databases (and therefore metrics) because they have tried to artificially inrease their citation counts by self-citations [@moussa_bibliometric_2022].
 
 ## Conformism
 
 Conformity is when people start to act, behave or think in the same way. To get a research degree means to conform to the norms of the discipline. However, those norms are not beneficial just because they happen to be conducted in the name of science, but can also become detrimental---especially when combined with questionable research practices.
 
-The American cardiologist Harlan M. Krumholz wrote the following about conformism:
+The cardiologist Harlan M. Krumholz share his experience of conformism:
 
 > When I entered medicine, I did not realize that there was such intense pressure to conform. But we learn early on that there is a decorum to medicine, a politeness. A hidden curriculum teaches us not to disturb the status quo. We are trained to defer to authority, not to question it. We depend on powerful individuals and organizations and are taught that success does not often come to those who ask uncomfortable questions or suggest new ways of providing care. [@krumholz_note_2012, 246]
 
 It should be emphasized that conformism itself is not bad. It depends on what people are conforming about, but in the case of questionable research practices (and the quote above) there are obviously areas where it can have severe consequences.
 
-While good conformism should be encouraged, bad conformism is difficult to counteract since it typically occurs top-down---from institutions and senior researchers down to the new (and often lone) researcher who is faced to conform in order to be accepted. For instance, "there appears to be a deeply ingrained culture within academia that allows for the use QRPs [questionable research practices] to persist, and thus trainees may feel tempted or pressured to engage in QRPs in their own research" [@moran_i_2021, 5].^[This study is based on a survey of 425 psychology students attending Canadian universities.]
+While good conformism should be encouraged, bad conformism is difficult to counteract since it typically occurs top-down---from institutions and senior researchers down to the new (and often lone) researcher who is faced to conform in order to be accepted. For instance, "there appears to be a deeply ingrained culture within academia that allows for the use QRPs [[questionable research practices]] to persist, and thus trainees may feel tempted or pressured to engage in QRPs in their own research" [@moran_i_2021, 5].^[This study is based on a survey of 425 psychology students attending Canadian universities.]
 
 Remedies that might be relevant include [adversarial collaboration](#adversarial-collaboration), [anonymous publication](#anonymous-publication), [registered report](#registered-report).
 
 ## Summary {#reasons-summary}
 
-There are many reasons why scientists engage in questionable research practices. But they can be boiled down to at least two levels: explanations about individuals (e.g., being first, status-seeking), and explanations about the research culture and institutional reward systems (e.g., incentive structures, conformism).
+There are many reasons why scientists engage in questionable research practices. But they can be boiled down to at least two types of explanations: explanations about what individual researchers do (e.g., being first and status-seeking), and explanations about the research culture and institutional reward systems (e.g., incentive structures and conformism). It's important to understand these reasons in order to craft appropriate remedies.

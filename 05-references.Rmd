@@ -2,6 +2,10 @@
 
 <div id="refs"></div>
 
+```{r, include=knitr::is_html_output(), results="asis"}
+cat("
 ::: {.rmdnote}
 Did you look for your own work but didn't find it? [Then tell me](#acknowledgments)! Self-promotion is encouraged.
 :::
+")
+```

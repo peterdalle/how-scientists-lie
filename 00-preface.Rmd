@@ -2,23 +2,23 @@
 
 The purpose of this book is to become the goto resource about questionable research practices, the steroids of research, and to provide a pedagogical and educational introduction to these practices, and suggest remedies.
 
-The main point I am trying to make is that questionable research practices are fundamentally about *reasoning*. [Excluding outliers](#outlier-exclusion), for example, may be related to statistics but the exclusion depends on the reasons given. In other words, there are no statistics in the world that can tell researchers to exclude.^[This relates to the difference between *ontological subjectivity* and *epistemological objectivity* [@hacking_social_1999]. For example, to exclude outliers or not is subjective, but *how* you exclude outliers is objective.] This means that the "errors of reasoning and irresponsible conclusions from the quantitative case originate from acts, which in principle are performed exactly the same in qualitative research" [@de_groot_meaning_1956, 8]. In order to understand these acts, we need to understand what questionable research practices are and how researchers use them. 
+**The main point** I am trying to make is that questionable research practices are fundamentally about *reasoning*. [Excluding outliers](#outlier-exclusion), for example, may be related to statistics but the exclusion depends on the reasons given. In other words, there are no statistics in the world that can tell researchers to exclude.^[This relates to the difference between *ontological subjectivity* and *epistemological objectivity* [@hacking_social_1999]. For example, to exclude outliers or not is subjective. But once you decide to exclude outliers, for whatever reason, the question of *how* they are excluded is objective with right and wrong answers.] This means that the "errors of reasoning and irresponsible conclusions from the quantitative case originate from acts, which in principle are performed exactly the same in qualitative research" [@de_groot_meaning_1956, 8]. In order to understand these acts, we need to understand what questionable research practices are, how researchers use and justify them using reasoning, and the possible remedies that helps rectify the problem.
 
-To understand what researchers do is important but an understudied area of science. As @mahoney_scientist_1976 pointed out, "can we afford to glibly accept the truths of science without gauging the limitations of its primary instrument?" [-@mahoney_scientist_1976, 14].
+**Why do we need this book?** Science and research should be trusted because of the evidence and arguments it provide. However, some studies turn out to be untrustworthy because of questionable research practices. This makes it important to understand what researchers are actually doing when they do research, and there is a need to bring psychology into methodology [@greenland_need_2017]. As the psychologist Michael J. Mahoney pointed out, who studied other scientists, "can we afford to glibly accept the truths of science without gauging the limitations of its primary instrument?" [@mahoney_scientist_1976, 14].
 
 This book is free of charge. Books at scientific publishing companies are usually too expensive for anyone to buy and receives little attention. Why not just put it online?
 
 ## Outline {-}
 
-- **[Chapter 1](#qrp)** describes what questionable research practices (QRPs) are.
-- **[Chapter 2](#catalogue)** outlines several types of questionable research practices that has been identified in the research literature.
-* **[Chapter 3](#reasons)** introduces several explanations to why questionable research practices occur.
-- **[Chapter 4](#remedies)** suggests how questionable research practices can be prevented.
-- In the appendix you'll also find **[resources and tools](#resources)** that can help with your work, as well as a [history of QRPs](#qrps-history).
+- **[Chapter 1](#qrp)** describes what questionable research practices (QRPs) are, how common they are, and the consequences of using them.
+- **[Chapter 2](#catalogue)** outlines several types of questionable research practices that has been identified in the research literature and when they are likely to mislead.
+* **[Chapter 3](#reasons)** introduces several explanations to why questionable research practices occur to help us better understand why research is carried out the way it is.
+- **[Chapter 4](#remedies)** suggests how questionable research practices can be prevented by the individual researcher as well research teams and institutions.
+- In the appendix you'll also find **[resources and tools](#resources)** that can help with your work, as well as a **[questionable research practices through history](#qrps-history)**.
 
-## About the author {-}
+## About the author {- #author}
 
-[Peter M. Dahlgren](https://peterdahlgren.com/), PhD, studies metascience, selective information search, and confirmation bias.
+[Peter M. Dahlgren](https://peterdahlgren.com/), PhD, studies metascience, selective information search, confirmation bias, and fallacious reasoning.
 
 ## Roadmap {-}
 
@@ -37,12 +37,14 @@ The book is written in Markdown using the [bookdown](https://bookdown.org/) R pa
 
 ## Acknowledgments {- #acknowledgments}
 
-Thanks to Rebecca Willén for early reviewing, corrections and feedback.
+Thanks to Rebecca Willén for early reviewing, corrections and feedback; Gustav Nilsonne for reading.
 
 Cover icons: <a href="https://www.vecteezy.com/free-vector/poison" rel="nofollow">Poison Vectors by Vecteezy</a>
 
 ::: {.rmdnote}
 You can contribute to the book via the [GitHub repository](https://github.com/peterdalle/how-scientists-lie). You will then be included in the acknowledgments. Self-promotion and Reviewer 2 personalities are encouraged!
+
+[![](images/github-view-repository.svg)](https://github.com/peterdalle/how-scientists-lie)
 :::
 
 ## How to cite this book {- #cite}
@@ -51,14 +53,31 @@ You can contribute to the book via the [GitHub repository](https://github.com/pe
 year <- substr(Sys.Date(), 1, 4)
 ```
 
-- **APA**:   
-  Dahlgren, P. M. (`r year`). *How Scientists Lie*. <https://howscientistslie.com>. <https://doi.org/10.5281/zenodo.6532055>
-- **Chicago**:   
-  Dahlgren, Peter M. `r year`. *How Scientists Lie*. <https://howscientistslie.com>. <https://doi.org/10.5281/zenodo.6532055>
-- **Vancouver**:   
-  Dahlgren PM. How Scientists Lie [Internet]. `r year`. Available from: <https://howscientistslie.com>. <https://doi.org/10.5281/zenodo.6532055>
-
-<div class="mt-4">
+<ul class="nav nav-tabs" id="citations-tablist" role="tablist">
+<li class="nav-item" role="presentation">
+<a class="nav-link active" id="cite-apa-tab" data-toggle="tab" href="#cite-apa" role="tab" aria-controls="cite-apa" aria-selected="true">APA</a>
+</li>
+<li class="nav-item" role="presentation">
+<a class="nav-link" id="cite-chicago-tab" data-toggle="tab" href="#cite-chicago" role="tab" aria-controls="cite-chicago" aria-selected="false">Chicago</a>
+</li>
+<li class="nav-item" role="presentation">
+<a class="nav-link" id="cite-vancouver-tab" data-toggle="tab" href="#cite-vancouver" role="tab" aria-controls="cite-vancouver" aria-selected="false">Vancouver</a>
+</li>
+<li class="nav-item" role="presentation">
+<a class="nav-link" id="cite-bibtex-tab" data-toggle="tab" href="#cite-bibtex" role="tab" aria-controls="cite-bibtex" aria-selected="false">BibTeX</a>
+</li>
+</ul>
+<div class="tab-content" id="citations-content">
+<div class="tab-pane fade show active" id="cite-apa" role="tabpanel" aria-labelledby="cite-apa-tab">
+Dahlgren, P. M. (`r year`). <i>How Scientists Lie</i>. https://howscientistslie.com. doi:<a href="https://doi.org/10.5281/zenodo.6532055">10.5281/zenodo.6532055</a>
+</div>
+<div class="tab-pane fade" id="cite-chicago" role="tabpanel" aria-labelledby="cite-chicago-tab">
+Dahlgren, Peter M. `r year`. <i>How Scientists Lie</i>. https://howscientistslie.com. https://doi.org/10.5281/zenodo.6532055
+</div>
+<div class="tab-pane fade" id="cite-vancouver" role="tabpanel" aria-labelledby="cite-vancouver-tab">
+Dahlgren PM. How Scientists Lie [Internet]. `r year`. Available from: https://howscientistslie.com. https://doi.org/10.5281/zenodo.6532055
+</div>
+<div class="tab-pane fade" id="cite-bibtex" role="tabpanel" aria-labelledby="cite-bibtex-tab">
 ```bib
 @book{how_scientists_lie,
   title = {How {{Scientists Lie}}},
@@ -68,6 +87,7 @@ year <- substr(Sys.Date(), 1, 4)
   doi = {10.5281/zenodo.6532055}
 }
 ```
+</div>
 </div>
 
 ## License {-}

@@ -1,7 +1,7 @@
 --- 
 pagetitle: "How Scientists Lie"
 title: "How Scientists Lie"
-subtitle: "Catalogue of Questionable Research Practices and its Remedies"
+subtitle: "Questionable Research Practices and its Remedies"
 author: "Peter M. Dahlgren"
 date: "`r Sys.Date()`"
 knit: "bookdown::render_book"
@@ -10,7 +10,7 @@ output: bookdown::bs4_book
 documentclass: book
 bibliography: book.bib
 biblio-style: apalike
-csl: _includes/apa6.csl
+csl: includes/apa6.csl
 lot: true
 lof: true
 number-sections: true
@@ -24,16 +24,16 @@ twitter-handle: peterdalle
 url: https://howscientistslie.com/
 description: "A book about questionable research practices (QRPs) and its remedies. A guide to misleading science and research and how we can improve it."
 include-before: |
-    <div class="alert alert-warning alert-dismissible fade show" role="alert"><strong>Work-in-progress</strong> This book is not finished yet. Beware of typos. <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+    <div id="above-content-placeholder"></div>
 ---
 
 # How Scientists Lie {- #intro}
 
 <a href="/preface.html"><img src="images/cover.png" width="300" height="500" class="cover mb-5" alt="Book cover" /></a>
 
-How do scientists lie? Which strategies do they use? The book [*How Scientists Lie*](https://howscientistslie.com/) provides a catalogue of questionable research practices (QRPs), the steroids of research.
+How do scientists lie? Which strategies do they use? The book [*How Scientists Lie*](https://howscientistslie.com/) provides a catalogue of questionable research practices, or QRPs, the steroids of research. It's a book about how bad research practices drive away the good ones, and how bad practices can be identified and rectified.
 
-This book is for students, junior researchers, and others who have an interest in research that does not mislead. The book also suggests remedies to questionable research practices that is applicable to the social sciences, the natural sciences, and the humanities.
+This book is for students and junior researchers in the social sciences, the natural sciences, and the humanities, as well as others who have an interest in empirical research that does not mislead.
 
 <small>
 This is the work-in-progress toward the 1st edition. You can influence the creation of this book. Visit the [GitHub repository](https://github.com/peterdalle/how-scientists-lie) and contribute.
